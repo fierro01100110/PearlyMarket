@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.fierro;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
