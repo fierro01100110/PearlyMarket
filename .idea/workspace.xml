@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="e79d9ae4-b257-4ae0-964b-33f2b0438be9" name="Changes" comment="" />
+=======
     <list default="true" id="e79d9ae4-b257-4ae0-964b-33f2b0438be9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/Seyma.java" beforeDir="false" />
     </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
