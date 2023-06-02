@@ -11,7 +11,12 @@
     <list default="true" id="e79d9ae4-b257-4ae0-964b-33f2b0438be9" name="Changes" comment="" />
 =======
     <list default="true" id="e79d9ae4-b257-4ae0-964b-33f2b0438be9" name="Changes" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/Seyma.java" beforeDir="false" />
+>>>>>>> main
     </list>
 >>>>>>> main
 >>>>>>> main
