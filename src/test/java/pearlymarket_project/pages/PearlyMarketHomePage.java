@@ -17,7 +17,18 @@ public class PearlyMarketHomePage {
 
     @FindBy(xpath = "//span[text()='Register']")
     public WebElement register;
-
+    @FindBy(xpath = "//input[@id='reg_username']")
+    public WebElement usernameBox;
+    @FindBy(xpath = "//input[@id='reg_email']")
+    public WebElement emailBox;
+    @FindBy(xpath = "//input[@id='reg_password']")
+    public WebElement passwordBox;
+    @FindBy(xpath = "//input[@id='register-policy']")
+    public WebElement confirmBox;
+    @FindBy(xpath = "//button[text()='Sign Up']")
+    public WebElement signUpButton;
+    @FindBy(xpath = "//p[text()='An account is already registered with your email address. ']")
+    public WebElement errorMessage;
 
 
 }
