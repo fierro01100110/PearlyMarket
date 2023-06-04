@@ -1,25 +1,22 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.negativetests;
 
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketRegisterPage;
 import pearlymarket_project.utilities.ConfigReader;
 import pearlymarket_project.utilities.Driver;
 import pearlymarket_project.utilities.ReusableMethod;
 
-import java.security.SecureRandom;
-
-public class US_02_RegisterWithAlreadyExistingCredentials {
+public class US_02NegativeTest_03 {
     @Test
-    public void tets1(){
+    public void registeredEmailTest(){
+
         PearlyMarketHomePage pearlyMarketHomePage= new PearlyMarketHomePage();
-        PearlyMarketRegisterPage pearlyMarketRegisterPage=new PearlyMarketRegisterPage();
         // user visits home page
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
         // user clicks Register button
         pearlyMarketHomePage.register.click();
         // user enters an already existing username
-        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.usernameBox,ConfigReader.getProperty("andrey_username"),6);
+        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.usernameBox,ConfigReader.getProperty("andrey_new_username"),6);
         // user enters an already existing email
         ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.emailBox,ConfigReader.getProperty("andrey_email"),6);
         // user enters a password
@@ -29,9 +26,12 @@ public class US_02_RegisterWithAlreadyExistingCredentials {
         // user clicks sign up button
         ReusableMethod.clickWithTimeOut(pearlyMarketHomePage.signUpButton,3);
         //verift that user see the error message "An account is already registered with your email address."
-        ReusableMethod.verifyElementDisplayed(pearlyMarketHomePage.existingCredentialsErrorMessage);
-
+         ReusableMethod.verifyElementDisplayed(pearlyMarketHomePage.existingEmailErrorMessage);
+//        ReusableMethod.
+//                verifyActualAndExpectedTextMatch(ConfigReader.getProperty("register_with_existingEmailMessage"),
+//                        pearlyMarketHomePage.existingEmailErrorMessage);
 
     }
+
 
 }
