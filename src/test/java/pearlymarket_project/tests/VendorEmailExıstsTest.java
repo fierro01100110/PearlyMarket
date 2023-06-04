@@ -49,13 +49,13 @@ public class VendorEmailExıstsTest {
         //User clicks password box
         vrp.password.click();
         //User types password
-        vrp.password.sendKeys("Helloworld000");
+        vrp.password.sendKeys("fierro_vendor_password");
 
         WaitUtils.waitFor(3);
         //User clicks confirm password box
         vrp.confirmPassword.click();
         //User confirms password
-        vrp.confirmPassword.sendKeys("Helloworld000");
+        vrp.confirmPassword.sendKeys("fierro_vendor_confirmpassword");
 
         //User clicks "Register"
         vrp.registerButton.click();

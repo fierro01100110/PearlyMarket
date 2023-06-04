@@ -9,7 +9,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Fierro2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fierro2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/VendorEmailExısts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/VendorEmailExistsNegativeTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_02_RegisterWithAlreadyExistingCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_02_RegisterWithAlreadyExistingCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ReusableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ReusableMethod.java" afterDir="false" />
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +53,79 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.Fierro2">
     <configuration name="Andrey1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pearlymarket_project.Andrey1" />
+=======
+  <component name="RunManager" selected="TestNG.US_02NegativeTest_03">
+    <configuration name="US_02NegativeTest_03" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> main
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pearlymarket_project.*" />
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_02NegativeTest_03" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_02NegativeTest_03.registeredEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_02NegativeTest_03" />
+      <option name="METHOD_NAME" value="registeredEmailTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_02_NegativeTest_02.registeredUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_02_NegativeTest_02" />
+      <option name="METHOD_NAME" value="registeredUsernameTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_02_RegisterWithAlreadyExistingCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_02_RegisterWithAlreadyExistingCredentials" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="VendorEmailExistsNegativeTest.negativeTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -134,6 +203,15 @@
         <item itemvalue="TestNG.US_02_RegisterWithAlreadyExistingCredentials.tets1" />
         <item itemvalue="TestNG.VendorEmailExıstsTest.vendorEmailExistsTest" />
         <item itemvalue="Application.Andrey1" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.US_02NegativeTest_03" />
+        <item itemvalue="TestNG.US_02NegativeTest_03.registeredEmailTest" />
+        <item itemvalue="TestNG.US_02_NegativeTest_02.registeredUsernameTest" />
+        <item itemvalue="TestNG.US_02_RegisterWithAlreadyExistingCredentials" />
+        <item itemvalue="TestNG.US_02_RegisterWithAlreadyExistingCredentials.tets1" />
+>>>>>>> main
       </list>
     </recent_temporary>
   </component>
