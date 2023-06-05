@@ -32,7 +32,7 @@ public class US_02_NegativeTestCase {
         ReusableMethod.clickWithTimeOut(pearlyMarketHomePage.confirmBox,3);
         // user clicks sign up button
         ReusableMethod.clickWithTimeOut(pearlyMarketHomePage.signUpButton,3);
-        //verify that user sees sign out button
+        //verify that user sees sign out button/gi
        ReusableMethod.verifyElementDisplayed(pearlyMarketRegisterPage.successfulRegister);
 
 
