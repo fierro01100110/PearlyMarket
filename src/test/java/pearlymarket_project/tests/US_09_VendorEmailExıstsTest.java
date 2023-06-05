@@ -10,9 +10,10 @@ import pearlymarket_project.utilities.Driver;
 import pearlymarket_project.utilities.ReusableMethod;
 import pearlymarket_project.utilities.WaitUtils;
 
+import static pearlymarket_project.utilities.ReusableMethod.getTextWithTimeout;
 import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
 
-public class VendorEmailExıstsTest {
+public class US_09_VendorEmailExıstsTest {
     @Test
     public void vendorEmailExistsTest() throws InterruptedException {
 
@@ -49,20 +50,23 @@ public class VendorEmailExıstsTest {
         //User clicks password box
         vrp.password.click();
         //User types password
-        vrp.password.sendKeys("fierro_vendor_password");
+        vrp.password.sendKeys(ConfigReader.getProperty("fierro_vendor_password"));
 
         WaitUtils.waitFor(3);
         //User clicks confirm password box
         vrp.confirmPassword.click();
         //User confirms password
-        vrp.confirmPassword.sendKeys("fierro_vendor_confirmpassword");
+        vrp.confirmPassword.sendKeys(ConfigReader.getProperty("fierro_confirmpassword"));
 
         //User clicks "Register"
         vrp.registerButton.click();
 
         //The message "This Email already exists. Please log in to the site and apply as vendor."
         // should appear if the user tries to register using a registered email address.
-        verifyElementDisplayed(By.xpath("//div[@class='wcfm-message wcfm-error']"));
+        WaitUtils.waitFor(3);
+
+        String expectedData= "This Email already exists. Please login to the site and apply as vendor.";
+        ReusableMethod.verifyActualAndExpectedTextMatch(expectedData,vrp.existedAccountMessage);
 
         //Close driver
         Driver.closeDriver();
