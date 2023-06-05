@@ -5,6 +5,7 @@
     <value-preview-text-wrapping value="true" />
     <value-preview-pinned value="false" />
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.DataExportManager">
     <export-instructions>
       <create-header value="true" />
@@ -26,10 +27,15 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes />
+=======
+  <component name="DBNavigator.Project.DatabaseEditorStateManager">
+    <last-used-providers />
+>>>>>>> main
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
@@ -57,6 +63,8 @@
   <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
     <recently-used-interfaces />
   </component>
+=======
+>>>>>>> main
   <component name="DBNavigator.Project.Settings">
     <connections />
     <browser-settings>
@@ -99,6 +107,10 @@
         <object-type name="FUNCTION" sorting-type="NAME" />
         <object-type name="PROCEDURE" sorting-type="NAME" />
         <object-type name="ARGUMENT" sorting-type="POSITION" />
+<<<<<<< HEAD
+=======
+        <object-type name="TYPE ATTRIBUTE" sorting-type="POSITION" />
+>>>>>>> main
       </sorting>
       <default-editors>
         <object-type name="VIEW" editor-type="SELECTION" />
@@ -456,7 +468,10 @@
       </environment>
     </general-settings>
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.StatementExecutionManager">
     <execution-variables />
   </component>
+=======
+>>>>>>> main
 </project>
