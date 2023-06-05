@@ -22,7 +22,7 @@ public class US_06 {
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
 
         //Click on sign in
-        pearlyMarketHomePage.signIn.click();
+        pearlyMarketSignInPage.signIn.click();
 
         //Enter username or email
         pearlyMarketSignInPage.usernameOrEmail.sendKeys(ConfigReader.getProperty("seyma_email"));
@@ -36,11 +36,6 @@ public class US_06 {
 
         Thread.sleep(2000);
 
-        //type a product name on the search box
-        pearlyMarketHomePage.searchBox.sendKeys("table"+ Keys.ENTER);
-
-
-        //li[@class='product-wrap']
 
 
 
