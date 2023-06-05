@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecd4ed3-cd1d-453c-9094-e93e6a01c809" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fierro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fierro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fierro2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fierro2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/Hakan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/Hakan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketRegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/VendorEmailExısts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_09_VendorEmailExıstsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
