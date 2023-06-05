@@ -36,4 +36,5 @@ public class PearlyMarketHomePage {
     @FindBy(xpath = "(//div//small)[1]")
     public WebElement weakPswMessage;
 
+
 }
