@@ -15,6 +15,8 @@ public class PearlyMarketHomePage {
     }
 
 
+
+
     @FindBy(xpath = "//span[text()='Register']")
     public WebElement register;
     @FindBy(xpath = "//input[@id='reg_username']")
