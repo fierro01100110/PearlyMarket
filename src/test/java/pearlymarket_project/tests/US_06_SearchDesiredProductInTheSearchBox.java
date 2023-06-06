@@ -2,14 +2,13 @@ package pearlymarket_project.tests;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketSignInPage;
 import pearlymarket_project.utilities.ConfigReader;
 import pearlymarket_project.utilities.Driver;
 
-public class US_06 {
+public class US_06_SearchDesiredProductInTheSearchBox {
 
 
     @BeforeMethod
@@ -22,7 +21,7 @@ public class US_06 {
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
 
         //Click on sign in
-        pearlyMarketSignInPage.signIn.click();
+        pearlyMarketHomePage.signInHome.click();
 
         //Enter username or email
         pearlyMarketSignInPage.usernameOrEmail.sendKeys(ConfigReader.getProperty("seyma_email"));
@@ -35,6 +34,9 @@ public class US_06 {
         pearlyMarketSignInPage.signIn.click();
 
         Thread.sleep(2000);
+
+        //Type a product name on the search box
+        pearlyMarketHomePage.searchBox.sendKeys("table"+ Keys.ENTER);
 
 
 

@@ -11,7 +11,7 @@ public class PearlyMarketSignInPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "username")
+    @FindBy(xpath = "//input[@id='username']")
     public WebElement usernameOrEmail;
 
     @FindBy(id = "password")

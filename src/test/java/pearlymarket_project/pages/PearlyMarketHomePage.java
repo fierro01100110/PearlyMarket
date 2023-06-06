@@ -15,6 +15,8 @@ public class PearlyMarketHomePage {
     }
 
 
+    @FindBy(xpath = "//span[text()='Sign In']")
+    public WebElement signInHome;
 
 
     @FindBy(xpath = "//span[text()='Register']")
@@ -37,5 +39,8 @@ public class PearlyMarketHomePage {
     public WebElement existingEmailErrorMessage;
     @FindBy(xpath = "(//div//small)[1]")
     public WebElement weakPswMessage;
+
+    @FindBy(xpath = "(//input[@type='search'])[1]")
+    public WebElement searchBox;
 
 }
