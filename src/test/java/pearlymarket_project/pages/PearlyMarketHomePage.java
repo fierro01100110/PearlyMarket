@@ -40,8 +40,8 @@ public class PearlyMarketHomePage {
     @FindBy(xpath = "(//div//small)[1]")
     public WebElement weakPswMessage;
 
-
     @FindBy(xpath = "(//input[@type='search'])[1]")
     public WebElement searchBox;
+
 
 }
