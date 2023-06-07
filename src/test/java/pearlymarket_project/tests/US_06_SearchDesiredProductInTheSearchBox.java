@@ -9,10 +9,7 @@ import org.testng.asserts.SoftAssert;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketSearchingProductsPage;
 import pearlymarket_project.pages.PearlyMarketSignInPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-import pearlymarket_project.utilities.WaitUtils;
+import pearlymarket_project.utilities.*;
 
 import java.util.List;
 
@@ -127,9 +124,9 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
         //Verify that the numbers on the cart icon increased/item added successfully
 
-        WaitUtils.waitFor(1);
+        WaitUtils.waitFor(3);
 
-        int numOnCart = Integer.parseInt(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.numberOnCartIcon,2).getText());
+        int numOnCart = Integer.parseInt(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.numberOnCartIcon,3).getText());
 
         System.out.println("numOnCart = " + numOnCart);
         assertTrue(numOnCart>0);
@@ -139,8 +136,36 @@ public class US_06_SearchDesiredProductInTheSearchBox {
         ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.numberOnCartIcon, 2);
 
         //User clicks on "View Cart" button
+        JSUtils.clickWithTimeoutByJS(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.viewCartButton, 2));
+
+        //User clicks on the product whose amount will be adjusted
+        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.productSelectedFromCart, 2);
+
+        //User should be able to increase the amount of the product
+        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.plusButton, 2);
+
+        //Click on Add to Cart
+        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.addToCartButton, 2);
+
+        //User should see that the number of items increased
+        WaitUtils.waitFor(3);
+
+        int numOnCartAfterIncreasing = Integer.parseInt(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.numberOnCartIcon,2).getText());
+        System.out.println("numOnCartAfterIncreasing = " + numOnCartAfterIncreasing);
+
+        assertTrue(numOnCartAfterIncreasing>numOnCart);
+
+        //User should be able to decrease the amount of the product
 
 
+
+
+
+
+
+
+
+        }
 
 
 
@@ -148,4 +173,4 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
 
 
-}
+

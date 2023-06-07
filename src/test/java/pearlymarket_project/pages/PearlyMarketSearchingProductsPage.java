@@ -33,5 +33,17 @@ public class PearlyMarketSearchingProductsPage {
     @FindBy(xpath = "//a[.='View cart']")
     public WebElement viewCartButton;
 
+    //Product in the cart added before
+    @FindBy(xpath = "//a[text()='Food Table']")
+    public WebElement productSelectedFromCart;
+
+    // + button to increase the amount of the product
+    @FindBy(xpath = "//button[@title='Plus']")
+    public WebElement plusButton;
+
+    // - button to decrease the amount of the product
+    @FindBy(xpath = "//button[@title='Minus']")
+    public WebElement minusButton;
+
 
 }
