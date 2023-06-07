@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.negativetests;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -7,15 +7,15 @@ import pearlymarket_project.pages.PearlyMarketRegisterPage;
 import pearlymarket_project.pages.PearlyMarketVendorRegistrationPage;
 import pearlymarket_project.utilities.ConfigReader;
 import pearlymarket_project.utilities.Driver;
+import pearlymarket_project.utilities.ReusableMethod;
 import pearlymarket_project.utilities.WaitUtils;
 
 import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
 
-public class VendorEmailExistsNegativeTest {
+public class US_09_VendorEmailExistsBug3 {
 
     @Test
-    public void negativeTest1(){
-
+    public void vendorEmailExistsTest() throws InterruptedException {
 
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
 
@@ -42,28 +42,47 @@ public class VendorEmailExistsNegativeTest {
         WaitUtils.waitFor(3);
         verifyElementDisplayed(By.xpath("//div[text()='Verification code sent to your email: gasimovf98@gmail.com.']"));
 
-        //User types email verification code
+        //User types wrong email verification code
         vrp.emailVerification.sendKeys("604319");
-
 
 
         //User clicks password box
         vrp.password.click();
         //User types password
-        vrp.password.sendKeys("Helloworld000");
+        vrp.password.sendKeys(ConfigReader.getProperty("fierro_vendor_password"));
 
         WaitUtils.waitFor(3);
         //User clicks confirm password box
         vrp.confirmPassword.click();
         //User confirms password
-        vrp.confirmPassword.sendKeys("Helloworld000");
+        vrp.confirmPassword.sendKeys(ConfigReader.getProperty("fierro_confirmpassword"));
 
         //User clicks "Register"
         vrp.registerButton.click();
 
+
+
+        //BUG
+        //User typed REUSED verification code
+        String expectedMessage = "Verification code is incorrect";
+        ReusableMethod.verifyActualAndExpectedTextMatch(expectedMessage,vrp.errorMessage);
+
+
+
+
+
+
+        //My actual expected result from User Story 09
+
         //The message "This Email already exists. Please log in to the site and apply as vendor."
         // should appear if the user tries to register using a registered email address.
-        verifyElementDisplayed(By.xpath("//div[@class='wcfm-message wcfm-error']"));
+        WaitUtils.waitFor(3);
+
+        String expectedData= "This Email already exists. Please login to the site and apply as vendor.";
+        ReusableMethod.verifyActualAndExpectedTextMatch(expectedData,vrp.errorMessage);
+
+        //Close driver
+        Driver.closeDriver();
 
 
     }
