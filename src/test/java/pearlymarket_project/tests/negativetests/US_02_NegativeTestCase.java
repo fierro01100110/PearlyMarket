@@ -1,5 +1,6 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.negativetests;
 
+import com.github.javafaker.Faker;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketRegisterPage;
@@ -7,9 +8,9 @@ import pearlymarket_project.utilities.ConfigReader;
 import pearlymarket_project.utilities.Driver;
 import pearlymarket_project.utilities.ReusableMethod;
 
-import java.security.SecureRandom;
+public class US_02_NegativeTestCase {
+         Faker faker =new Faker();
 
-public class US_02_RegisterWithAlreadyExistingCredentials {
     @Test
     public void tets1(){
         PearlyMarketHomePage pearlyMarketHomePage= new PearlyMarketHomePage();
@@ -18,20 +19,24 @@ public class US_02_RegisterWithAlreadyExistingCredentials {
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
         // user clicks Register button
         pearlyMarketHomePage.register.click();
+     String fakeUsername=faker.name().username();
+     String fakeEmail=faker.internet().emailAddress();
+     String  fakePassword=faker.internet().password();
         // user enters an already existing username
-        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.usernameBox,ConfigReader.getProperty("andrey_username"),6);
+        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.usernameBox,fakeUsername,3);
         // user enters an already existing email
-        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.emailBox,ConfigReader.getProperty("andrey_email"),6);
+        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.emailBox,fakeEmail,6);
         // user enters a password
-        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.passwordBox,ConfigReader.getProperty("andrey_password"),6);
+        ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.passwordBox,fakePassword,6);
         // user clicks the confrim box "I agree to the privacy policy"
         ReusableMethod.clickWithTimeOut(pearlyMarketHomePage.confirmBox,3);
         // user clicks sign up button
         ReusableMethod.clickWithTimeOut(pearlyMarketHomePage.signUpButton,3);
-        //verift that user see the error message "An account is already registered with your email address."
-        ReusableMethod.verifyElementDisplayed(pearlyMarketHomePage.existingCredentialsErrorMessage);
+        //verify that user sees sign out button/gi
+       ReusableMethod.verifyElementDisplayed(pearlyMarketRegisterPage.successfulRegister);
 
 
     }
+
 
 }
