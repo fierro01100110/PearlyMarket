@@ -11,12 +11,15 @@ public class PearlyMarketSignInPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+    //Username or Email box in to sign in
     @FindBy(xpath = "//input[@id='username']")
     public WebElement usernameOrEmail;
 
+    //Password to sign in
     @FindBy(id = "password")
     public WebElement password;
 
+    //Sign In Box after typing username and password
     @FindBy(xpath = "//button[text()='Sign In']")
     public WebElement signIn;
 
