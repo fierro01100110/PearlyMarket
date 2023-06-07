@@ -14,13 +14,12 @@ public class PearlyMarketHomePage {
     }
 
 
-<<<<<<< HEAD
-=======
+
     @FindBy(xpath = "//span[text()='Sign In']")
     public WebElement signInHome;
 
 
->>>>>>> main
+
     @FindBy(xpath = "//span[text()='Register']")
     public WebElement register;
     @FindBy(xpath = "//input[@id='reg_username']")

@@ -25,8 +25,11 @@ public class AccountDetailsPage {
       @FindBy(name = "login")
       public WebElement signIn;
 
-      @FindBy(xpath = "//a[@class='login logout inline-type']")
-      public WebElement signOut;
+//      @FindBy(xpath = "//a[@class='login logout inline-type']")
+//      public WebElement signOut;
+
+        @FindBy(xpath = "//a[@class='login logout inline-type']")
+        public WebElement signOut;
 
       @FindBy(xpath = "//a[.='Log out']")
       public WebElement logOut;
@@ -64,17 +67,13 @@ public class AccountDetailsPage {
  public WebElement biographyTextArea;
 
 
-//     @FindBy(id = "password_current")
-//     public WebElement currentPassword;
-
-
-    @FindBy(xpath = "//input[@name='password_current']")
+    @FindBy(xpath ="//input[@id='password_current']")
     public WebElement currentPassword;
 
      @FindBy(id = "password_1")
      public WebElement newPassword;
 
-     @FindBy(id = "password_current")
+     @FindBy(id = "password_2")
      public WebElement comfirmPassword;
 
 
@@ -84,6 +83,11 @@ public class AccountDetailsPage {
 
      @FindBy(xpath = "//div[@role='alert']")
      public WebElement changesSuccesfullyMessage;
+
+
+
+ @FindBy(xpath = "//legend[.='Password change']")
+ public WebElement passwordChangeText;
 
 
 }

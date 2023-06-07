@@ -1,24 +1,29 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.positivetests;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.AccountDetailsPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-import pearlymarket_project.utilities.WaitUtils;
+import pearlymarket_project.utilities.*;
 
 
 public class US_05_UserEditAccountDetails {
+
+
     PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
     AccountDetailsPage accountDetailsPage = new AccountDetailsPage();
     Faker faker = new Faker();
     String username = faker.name().username();
     String email = faker.internet().emailAddress();
     String password = faker.internet().password();
+    String newPassword = faker.internet().password();
+    String changedName = faker.name().firstName();
+    String changedLastName = faker.name().lastName();
+    String changedDisplayName = faker.name().name();
+    String changedEmail = faker.internet().emailAddress();
 
 
     @Test
@@ -54,7 +59,6 @@ public class US_05_UserEditAccountDetails {
         Assert.assertTrue(accountDetailsPage.signIn.isDisplayed());
 
     }
-
 
     @Test
     public void testCase02() {
@@ -94,15 +98,12 @@ public class US_05_UserEditAccountDetails {
         //2. User should be able to see Account Details page
         Assert.assertEquals(accountDetailsPage.getAccountDetailsText.getText(), "Account Details");
 
-        WaitUtils.waitFor(3);
+        WaitUtils.waitFor(5);
     }
 
     @Test
     public void testCase04() {
-        String changedName = faker.name().firstName();
-        String changedLastName = faker.name().lastName();
-        String changedDisplayName = faker.name().name();
-        String changedEmail = faker.internet().emailAddress();
+
 
 //        1. User types other First Name that want to change
         accountDetailsPage.accountFirstName.clear();
@@ -114,18 +115,19 @@ public class US_05_UserEditAccountDetails {
         accountDetailsPage.accountLastName.sendKeys(changedLastName);
         WaitUtils.waitFor(2);
 
-        //        3. User types other display Name that want to change
+        // 3. User types other display Name that want to change
         accountDetailsPage.accountDisplayName.clear();
         accountDetailsPage.accountDisplayName.sendKeys(changedDisplayName);
         WaitUtils.waitFor(2);
 
-        //        4. User types other Email address that want to change
+        //  4. User types other Email address that want to change
         accountDetailsPage.accountEmail.clear();
         accountDetailsPage.accountEmail.sendKeys(changedEmail);
         WaitUtils.waitFor(2);
 
         // 5. User clicks SAVE CHANGES button
         WaitUtils.waitFor(3);
+
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.saveChangesButton);
         WaitUtils.waitFor(2);
@@ -142,6 +144,7 @@ public class US_05_UserEditAccountDetails {
 
 //      9. User should be able to see  the changed Display Name
         Assert.assertEquals(accountDetailsPage.accountDisplayName.getAttribute("value"), changedDisplayName);
+        System.out.println("Changed Display Name :"+changedDisplayName);
 
 //        10.  User should be able to see the changed Email address
         Assert.assertEquals(accountDetailsPage.accountEmail.getAttribute("value"), changedEmail);
@@ -171,29 +174,77 @@ public class US_05_UserEditAccountDetails {
 
     @Test
     public void testCase06() {
-        String newPassword = faker.internet().password();
-        System.out.println(password);
-        WaitUtils.waitFor(5);
+
 //        1. User writes current password
-        accountDetailsPage.currentPassword.sendKeys(password);
 
-//        2. User writes New Password
-        accountDetailsPage.currentPassword.sendKeys(newPassword);
+        WaitUtils.waitFor(2);
 
-//        3. User writes Confirm Password
-        accountDetailsPage.comfirmPassword.sendKeys(newPassword);
+        //accountDetailsPage.currentPassword.sendKeys(password);
+        JSUtils.setValueByJS(accountDetailsPage.currentPassword, password);
 
+        // 2. User writes New Password
+        JSUtils.setValueByJS(accountDetailsPage.newPassword, newPassword);
+
+//       3. User writes Confirm Password
+        JSUtils.setValueByJS(accountDetailsPage.comfirmPassword, newPassword);
 
 //        4. User clicks SAVE CHANGES button
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.saveChangesButton);
 
-
 //        5.  User should be able to see "Account details changed successfully" message
         Assert.assertEquals(accountDetailsPage.changesSuccesfullyMessage.getText(), "Account details changed successfully.");
+
+    }
+
+    @Test
+    public void testCase07(){
+
+        //1. User clicks Sign Out button
+
+        accountDetailsPage.signOut.click();
+
+        //2. User clicks Log Out link
+        accountDetailsPage.logOut.click();
+
+           WaitUtils.waitForPageToLoad(3);
+        //3. User types Email address or Username
+        accountDetailsPage.userNameOrEmail.sendKeys(changedDisplayName);
+
+        //4. User types password
+        accountDetailsPage.password.sendKeys(newPassword);
+
+
+        //5. User clicks Sign In Button
+        accountDetailsPage.signIn.click();
+
+        //6. User clicks My Account link
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].click();", accountDetailsPage.myAccountLink);
+
+
+
+
+       //        6. User clicks My Account link
+//        1. User clicks Account details link on the My Account Page
+
 
 
     }
 
 
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
