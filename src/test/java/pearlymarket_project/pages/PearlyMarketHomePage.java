@@ -43,5 +43,8 @@ public class PearlyMarketHomePage {
     @FindBy(xpath = "(//input[@type='search'])[1]")
     public WebElement searchBox;
 
+    //My Account element
+    @FindBy(xpath = "//a[text()='My Account']")
+    public WebElement myAccount;
 
 }
