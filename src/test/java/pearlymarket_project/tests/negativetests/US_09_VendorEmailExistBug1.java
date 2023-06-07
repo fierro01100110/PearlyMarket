@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.negativetests;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -12,7 +12,10 @@ import pearlymarket_project.utilities.WaitUtils;
 
 import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
 
-public class US_09_VendorEmailExıstsTest {
+public class US_09_VendorEmailExistBug1 {
+
+
+
     @Test
     public void vendorEmailExistsTest() throws InterruptedException {
 
@@ -48,8 +51,11 @@ public class US_09_VendorEmailExıstsTest {
 
         //User clicks password box
         vrp.password.click();
-        //User types password
+        //User types password Helloworld000
         vrp.password.sendKeys(ConfigReader.getProperty("fierro_vendor_password"));
+        String expectedData = "Password should contain uppercase, lowercase, digit and special char.";
+
+        ReusableMethod.verifyActualAndExpectedTextMatch(expectedData, vrp.errorMessage);
 
         WaitUtils.waitFor(3);
         //User clicks confirm password box
@@ -64,7 +70,7 @@ public class US_09_VendorEmailExıstsTest {
         // should appear if the user tries to register using a registered email address.
         WaitUtils.waitFor(3);
 
-        String expectedData= "This Email already exists. Please login to the site and apply as vendor.";
+        String expectedErrorMessage = "This Email already exists. Please login to the site and apply as vendor.";
         ReusableMethod.verifyActualAndExpectedTextMatch(expectedData,vrp.errorMessage);
 
         //Close driver

@@ -41,9 +41,10 @@ public class PearlyMarketHomePage {
     @FindBy(xpath = "(//div//small)[1]")
     public WebElement weakPswMessage;
 
-
     //Search box to search for products
+
     @FindBy(xpath = "(//input[@type='search'])[1]")
     public WebElement searchBox;
+
 
 }

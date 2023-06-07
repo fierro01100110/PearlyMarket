@@ -1,7 +1,6 @@
 package pearlymarket_project.tests.negativetests;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketRegisterPage;
@@ -11,11 +10,9 @@ import pearlymarket_project.utilities.Driver;
 import pearlymarket_project.utilities.ReusableMethod;
 import pearlymarket_project.utilities.WaitUtils;
 
-
 import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
 
-public class US_09_VendorEmailExistsBug {
-
+public class US_09_VendorEmailExistsBug3 {
 
     @Test
     public void vendorEmailExistsTest() throws InterruptedException {
@@ -36,51 +33,57 @@ public class US_09_VendorEmailExistsBug {
         //Verifying that User is on "Vendor Registration" url
         verifyElementDisplayed(By.xpath("//h2[text()='Vendor Registration']"));
 
-        //User clicks email box and enters existed email "gasimovf98@gmail.com"
+        //User clicks email box and enters "gasimovf98@gmail.com"
         vrp.email.sendKeys(ConfigReader.getProperty("fierro_email"));
 
         //User clicks email verification box
         vrp.emailVerification.click();
         //User sees "Verification code sent to your email: gasimovf98@gmail.com"
         WaitUtils.waitFor(3);
+        verifyElementDisplayed(By.xpath("//div[text()='Verification code sent to your email: gasimovf98@gmail.com.']"));
 
-
-       if (Driver.getDriver().findElement(By.xpath("//div[text()='Verification code sent to your email: gasimovf98@gmail.com.']")).isDisplayed()){
-           throw new InterruptedException("Verification code should not be sent to existed email");
-       }
-
-
-
-        //User types email verification code
-        vrp.emailVerification.sendKeys("587697");
-
+        //User types wrong email verification code
+        vrp.emailVerification.sendKeys("604319");
 
 
         //User clicks password box
         vrp.password.click();
         //User types password
-        vrp.password.sendKeys("fierro_vendor_password");
+        vrp.password.sendKeys(ConfigReader.getProperty("fierro_vendor_password"));
 
         WaitUtils.waitFor(3);
         //User clicks confirm password box
         vrp.confirmPassword.click();
         //User confirms password
-        vrp.confirmPassword.sendKeys("fierro_confirmpassword");
+        vrp.confirmPassword.sendKeys(ConfigReader.getProperty("fierro_confirmpassword"));
 
         //User clicks "Register"
         vrp.registerButton.click();
+
+
+
+        //BUG
+        //User typed REUSED verification code
+        String expectedMessage = "Verification code is incorrect";
+        ReusableMethod.verifyActualAndExpectedTextMatch(expectedMessage,vrp.errorMessage);
+
+
+
+
+
+
+        //My actual expected result from User Story 09
 
         //The message "This Email already exists. Please log in to the site and apply as vendor."
         // should appear if the user tries to register using a registered email address.
         WaitUtils.waitFor(3);
 
-        String expectedText= "This Email already exists. Please log in to the site and apply as vendor.";
-        ReusableMethod.verifyActualAndExpectedTextMatch(expectedText,vrp.existedAccountMessage);
+        String expectedData= "This Email already exists. Please login to the site and apply as vendor.";
+        ReusableMethod.verifyActualAndExpectedTextMatch(expectedData,vrp.errorMessage);
 
         //Close driver
         Driver.closeDriver();
 
 
     }
-
 }
