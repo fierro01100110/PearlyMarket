@@ -1,13 +1,13 @@
 package pearlymarket_project.tests;
 
-<<<<<<< HEAD
+
 import org.bouncycastle.jcajce.provider.symmetric.AES;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-=======
+
 import org.openqa.selenium.WebElement;
->>>>>>> main
+
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
