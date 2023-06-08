@@ -1,4 +1,4 @@
-package pearlymarket_project.tests.positivetests.utilities;
+package pearlymarket_project.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.JavascriptExecutor;

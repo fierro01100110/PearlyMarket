@@ -1,4 +1,4 @@
-package pearlymarket_project.tests.positivetests.utilities;
+package pearlymarket_project.utilities;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
