@@ -1,7 +1,9 @@
 package pearlymarket_project.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -63,5 +65,10 @@ public class JSUtils {
             driver=null;
         }
 
+    }
+
+    public static void setValueByJS(WebElement inputElement,String text){
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].setAttribute('value','"+text+"')",inputElement);
     }
 }
