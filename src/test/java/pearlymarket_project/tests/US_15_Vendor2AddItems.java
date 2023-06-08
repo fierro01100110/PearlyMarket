@@ -1,18 +1,18 @@
 package pearlymarket_project.tests;
 
-import org.bouncycastle.jcajce.provider.symmetric.AES;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketMyAccountPage;
 import pearlymarket_project.pages.PearlyMarketSignInPage;
 import pearlymarket_project.pages.PearlyMarketVendorProductsPage;
-import pearlymarket_project.utilities.*;
+import pearlymarket_project.tests.positivetests.utilities.ConfigReader;
+import pearlymarket_project.tests.positivetests.utilities.Driver;
+import pearlymarket_project.tests.positivetests.utilities.ReusableMethod;
+import pearlymarket_project.tests.positivetests.utilities.WaitUtils;
 
 import java.util.List;
 

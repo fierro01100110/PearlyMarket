@@ -9,7 +9,8 @@ import org.testng.asserts.SoftAssert;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketSearchingProductsPage;
 import pearlymarket_project.pages.PearlyMarketSignInPage;
-import pearlymarket_project.utilities.*;
+import pearlymarket_project.tests.positivetests.utilities.*;
+
 
 import java.util.List;
 

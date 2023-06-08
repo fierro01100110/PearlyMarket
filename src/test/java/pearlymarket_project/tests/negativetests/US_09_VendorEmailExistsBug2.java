@@ -5,13 +5,13 @@ import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketRegisterPage;
 import pearlymarket_project.pages.PearlyMarketVendorRegistrationPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-import pearlymarket_project.utilities.WaitUtils;
+import pearlymarket_project.tests.positivetests.utilities.ConfigReader;
+import pearlymarket_project.tests.positivetests.utilities.Driver;
+import pearlymarket_project.tests.positivetests.utilities.ReusableMethod;
+import pearlymarket_project.tests.positivetests.utilities.WaitUtils;
 
 
-import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
+import static pearlymarket_project.tests.positivetests.utilities.ReusableMethod.verifyElementDisplayed;
 
 public class US_09_VendorEmailExistsBug2 {
 
