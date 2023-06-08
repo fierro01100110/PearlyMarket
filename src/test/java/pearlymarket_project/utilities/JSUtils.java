@@ -13,62 +13,66 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 
 public class JSUtils {
-
-
-    private static WebDriver driver;
-
-    //1. getDriver : setup instance the driver object
-    public static WebDriver getDriver(){
-        if (driver==null){
-
-            switch (ConfigReader.getProperty("browser")){
-                case "chrome" :
-                    WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver();
-                    break;
-
-                case "firefox" :
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
-                    break;
-
-                case "chrome-headless" :
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
-                    break;
-
-                case "edge" :
-                    WebDriverManager.edgedriver().setup();
-                    driver = new EdgeDriver();
-                    break;
-
-                case "safari" :
-                    WebDriverManager.safaridriver().setup();
-                    driver = new SafariDriver();
-                    break;
-
-            }
-
-
-
-        }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        return driver;
+    /*
+  JAVASCRIPT EXECUTOR METHODS
+   @param WebElement
+   scrolls into that element
+    */
+    public static void scrollIntoViewJS(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].scrollIntoView(true);",element);
     }
-
-    //2. closeDriver : quits the driver
-    public static void closeDriver(){
-
-        if (driver!=null){
-            driver.quit();
-            driver=null;
-        }
-
+    /*
+    scroll all the way down
+     */
+    public static void scrollAllTheWayDownJS(){
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
     }
-
+    /*
+    scroll all the way up
+     */
+    public static void scrollAllTheWayUpJS(){
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
+    }
+    /*
+    @param WebElement
+    clicks on that element
+     */
+    //    EXPLICITLY WAIT FOR ELEMENT TO BE VISIBLE, SCROLL INTO THE ELEMENT, THEN CLICK BY JS
+    public static void clickWithTimeoutByJS(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", WaitUtils.waitForVisibility(element,5));
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
+    }
+    /*
+   @param String id of teh webelement that we want to locate
+   locating element using javascript executor
+   and returns that WebElement
+   Note that this is NOT common and we should use 8 locators that we learned in selenium
+    */
+    public WebElement locateElementsByJS(String idOfElement){
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        return ((WebElement)js.executeScript("return document.getElementById('"+idOfElement+"')"));
+    }
+    /*
+    @param1 WebElement, @param2 String
+    type the string in that web element
+     */
     public static void setValueByJS(WebElement inputElement,String text){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].setAttribute('value','"+text+"')",inputElement);
     }
+    /*
+    param : Id of the the element
+     */
+    public static String getValueByJS(String idOfElement){
+        JavascriptExecutor js = (JavascriptExecutor)Driver.getDriver();
+        String value=js.executeScript("return document.getElementById('"+idOfElement+"').value").toString();
+        System.out.println(value);
+        return value;
+
+    }
+
+
 }
