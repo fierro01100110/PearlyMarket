@@ -1,19 +1,10 @@
-package pearlymarket_project.tests.positivetests.utilities;
+package pearlymarket_project.utilities;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.commons.io.FileUtils;
-import org.junit.Before;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.BeforeClass;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
@@ -217,10 +208,14 @@ public class ReusableMethod {
         }
     }
     //    ALERT
-    public void acceptAlert() throws InterruptedException {
+    public static void acceptAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
-    public void dismissAlert() throws InterruptedException {
+
+    public static void sendKeysAlert(String text) throws InterruptedException {
+        Driver.getDriver().switchTo().alert().sendKeys(text);
+    }
+    public static void dismissAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
     //    IFRAME

@@ -1,4 +1,4 @@
-package pearlymarket_project.tests.positivetests.utilities;
+package pearlymarket_project.utilities;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 

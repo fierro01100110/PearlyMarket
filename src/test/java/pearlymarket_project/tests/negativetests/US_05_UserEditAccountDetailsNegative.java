@@ -4,10 +4,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.AccountDetailsPage;
-import pearlymarket_project.tests.positivetests.utilities.ConfigReader;
-import pearlymarket_project.tests.positivetests.utilities.Driver;
-import pearlymarket_project.tests.positivetests.utilities.JSUtils;
-import pearlymarket_project.tests.positivetests.utilities.WaitUtils;
+import pearlymarket_project.utilities.ConfigReader;
+import pearlymarket_project.utilities.Driver;
+import pearlymarket_project.utilities.JSUtils;
+import pearlymarket_project.utilities.WaitUtils;
 
 public class US_05_UserEditAccountDetailsNegative {
     AccountDetailsPage accountDetailsPage = new AccountDetailsPage();

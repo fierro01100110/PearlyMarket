@@ -6,7 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.AccountDetailsPage;
 import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.tests.positivetests.utilities.*;
+
+import pearlymarket_project.utilities.*;
 
 
 public class US_05_UserEditAccountDetails {

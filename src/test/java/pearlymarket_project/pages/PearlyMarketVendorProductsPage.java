@@ -3,7 +3,7 @@ package pearlymarket_project.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pearlymarket_project.tests.positivetests.utilities.Driver;
+import pearlymarket_project.utilities.Driver;
 
 public class PearlyMarketVendorProductsPage {
 
@@ -87,21 +87,52 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "//select[@id='_wcfmmp_processing_time']")
     public WebElement processingTimeBox;
 
-    //Attributes==>Color box
+
+    //Attributes==> Color check
     @FindBy(xpath = "//input[@id='attributes_is_active_1']")
+    public WebElement colorCheck;
+
+
+    //Attributes==>Color box
+    @FindBy(xpath = "(//ul[@class='select2-selection__rendered'])[2]")
     public WebElement colorBox;
+
+    //Attributes==>Color box==>All colors
+    @FindBy(xpath = "(//button[text()='Select all'])[1]")
+    public WebElement selectAllColors;
+
+
+    //Attributes==>Color box==>None Colors
+    @FindBy(xpath = "(//button[text()='Select none'])[1]")
+    public WebElement selectNoneColors;
 
     //Attributes==>Size box
     @FindBy(xpath = "//input[@id='attributes_is_active_2']")
     public WebElement sizeBox;
 
+    //Attributes==>Size box==>Select all
+    @FindBy(xpath = "(//button[text()='Select all'])[2]")
+    public WebElement selectAllSize;
 
-    //Attributes==>Size Whole Box
-    @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_size ui-sortable-handle']")
-    public WebElement sizeWholeBox;
+    //Attributes==>Size box==>Select none
+    @FindBy(xpath = "(//button[text()='Select none'])[2]")
+    public WebElement selectNoneSize;
 
-    //Attributes==>Color Whole Box
-    @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_color ui-sortable-handle']")
-    public WebElement colorWholeBox;
 
+    //Add New Color Pop-Up
+    @FindBy(xpath = "//button[text()='Add New']")
+    public WebElement addNewColor;
+
+    //ADD Atribute
+    @FindBy(xpath = "(//button[text()='Add'])[3]")
+    public WebElement addAttribute;
+
+    //ADD Attribute ==> Name
+    @FindBy(xpath = "//input[@id='attributes_name_3']")
+    public WebElement addName;
+
+
+    //ADD Attributes ==> Value
+    @FindBy(xpath = "//textarea[@id='attributes_value_3']")
+    public WebElement addValue;
 }
