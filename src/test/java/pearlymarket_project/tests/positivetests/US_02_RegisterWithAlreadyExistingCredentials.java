@@ -7,8 +7,6 @@ import pearlymarket_project.utilities.ConfigReader;
 import pearlymarket_project.utilities.Driver;
 import pearlymarket_project.utilities.ReusableMethod;
 
-import java.security.SecureRandom;
-
 public class US_02_RegisterWithAlreadyExistingCredentials {
     @Test
     public void tets1(){
