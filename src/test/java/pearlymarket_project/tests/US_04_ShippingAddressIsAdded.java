@@ -9,7 +9,6 @@ import pearlymarket_project.pages.*;
 import pearlymarket_project.tests.positivetests.utilities.ConfigReader;
 import pearlymarket_project.tests.positivetests.utilities.Driver;
 import pearlymarket_project.tests.positivetests.utilities.WaitUtils;
-import pearlymarket_project.utilities.*;
 
 import java.io.File;
 import java.io.IOException;

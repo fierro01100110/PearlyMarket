@@ -14,11 +14,9 @@ public class PearlyMarketHomePage {
     }
 
 
-<<<<<<< HEAD
 
-=======
     //Sign In button in home page
->>>>>>> main
+
     @FindBy(xpath = "//span[text()='Sign In']")
     public WebElement signInHome;
 

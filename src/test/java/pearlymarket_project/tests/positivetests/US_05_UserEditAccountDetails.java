@@ -1,17 +1,17 @@
 package pearlymarket_project.tests.positivetests;
+
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.AccountDetailsPage;
-import pearlymarket_project.utilities.*;
+import pearlymarket_project.pages.PearlyMarketHomePage;
+import pearlymarket_project.tests.positivetests.utilities.*;
 
 
 public class US_05_UserEditAccountDetails {
     PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
     AccountDetailsPage accountDetailsPage = new AccountDetailsPage();
-    JavascriptExecutor js=(JavascriptExecutor)Driver.getDriver();
 
     Faker faker = new Faker();
     String username = faker.name().username();
@@ -223,14 +223,6 @@ public class US_05_UserEditAccountDetails {
         //8. User should be able to see Account Details page
         Assert.assertEquals(accountDetailsPage.getAccountDetailsText.getText(), "Account Details");
    }
-
-
-
-
-
-
-
-
 
 }
 

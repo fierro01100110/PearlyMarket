@@ -1,9 +1,4 @@
-<<<<<<< HEAD:src/test/java/pearlymarket_project/utilities/JSUtils.java
-package pearlymarket_project.utilities;
-=======
 package pearlymarket_project.tests.positivetests.utilities;
-
->>>>>>> main:src/test/java/pearlymarket_project/tests/positivetests/utilities/JSUtils.java
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
