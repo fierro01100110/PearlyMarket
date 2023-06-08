@@ -1,16 +1,6 @@
-package pearlymarket_project.utilities;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+package pearlymarket_project.tests.positivetests.utilities;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
-
-import java.time.Duration;
 
 public class JSUtils {
     /*
@@ -51,7 +41,7 @@ public class JSUtils {
    and returns that WebElement
    Note that this is NOT common and we should use 8 locators that we learned in selenium
     */
-    public WebElement locateElementsByJS(String idOfElement){
+    public static WebElement locateElementsByJS(String idOfElement){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         return ((WebElement)js.executeScript("return document.getElementById('"+idOfElement+"')"));
     }
@@ -73,5 +63,6 @@ public class JSUtils {
         return value;
 
     }
+
 
 }

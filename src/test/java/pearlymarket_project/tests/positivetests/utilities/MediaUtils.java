@@ -1,4 +1,4 @@
-package pearlymarket_project.utilities;
+package pearlymarket_project.tests.positivetests.utilities;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -15,7 +15,7 @@ public class MediaUtils {
     /*
 This method captures sscreenshot of the entire page
 */
-    public void takeScreenshotOfTheEntirePage() throws IOException {
+    public static void takeScreenshotOfTheEntirePage() throws IOException {
 //        1. TakeScreenShot class with getScreenShotAs method to capture the screenshot
         File image = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.FILE);
 //        2. Create a path to save the image
