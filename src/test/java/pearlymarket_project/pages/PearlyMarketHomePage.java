@@ -36,6 +36,7 @@ public class PearlyMarketHomePage {
     public WebElement signUpButton;
     @FindBy(xpath = "//p[text()='An account is already registered with that username. Please choose another.']")
     public WebElement usernameErrorMessage;
+
     @FindBy(xpath = "//p[text()='An account is already registered with your email address. ']")
     public WebElement existingCredentialsErrorMessage;
     @FindBy(xpath = "//p[text()='An account is already registered with your email address. ']")
@@ -43,6 +44,26 @@ public class PearlyMarketHomePage {
     @FindBy(xpath = "(//div//small)[1]")
     public WebElement weakPswMessage;
 
+<<<<<<< HEAD
+
+
+
+
+    @FindBy(xpath = "//li[@id='menu-item-1079']")
+    public WebElement myAccount;
+
+    @FindBy(xpath = "//span[text()='Sign In']")
+    public WebElement SignIn;
+
+    @FindBy(xpath = "//input[@id='username']")
+    public WebElement vendorUserName;
+
+    @FindBy(xpath = "//input[@id='password']")
+    public WebElement vendorPassword;
+
+    @FindBy(xpath = "//button[text()='Sign In']")
+    public WebElement signInButton;
+=======
     //Search box to search for products
 
     @FindBy(xpath = "(//input[@type='search'])[1]")
@@ -52,6 +73,7 @@ public class PearlyMarketHomePage {
     @FindBy(xpath = "//a[text()='My Account']")
     public WebElement myAccount;
 
+>>>>>>> main
 
 
 }

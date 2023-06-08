@@ -1,15 +1,26 @@
 package pearlymarket_project.tests.positivetests.utilities;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
+import org.junit.Before;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeClass;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
 import static org.testng.AssertJUnit.*;
 import static org.testng.AssertJUnit.assertFalse;
+
+
 
 public class ReusableMethod {
 
@@ -114,7 +125,7 @@ public class ReusableMethod {
         return select.getFirstSelectedOption();
     }
     //    DROPDOWN: accepts dropdown element and returns all selected element texts as an arraylist
-    public ArrayList<String> getDropdownSelectedOptions(WebElement element) throws Exception {
+    public static ArrayList<String> getDropdownSelectedOptions(WebElement element) throws Exception {
         if (element!=null){
             Select list = new Select(element);
             ArrayList<WebElement> allSelectedOptions = (ArrayList<WebElement>) list.getAllSelectedOptions();
@@ -279,5 +290,4 @@ public class ReusableMethod {
         //        Actions actions = new Actions(driver);
         new Actions(Driver.getDriver()).dragAndDropBy(source,x,y).perform();
     }
-
 }
