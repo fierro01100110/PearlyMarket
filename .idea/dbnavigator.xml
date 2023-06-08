@@ -26,6 +26,12 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes />
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="DBNavigator.Project.DatabaseEditorStateManager">
+    <last-used-providers />
+>>>>>>> main
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />

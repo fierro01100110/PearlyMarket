@@ -3,7 +3,7 @@ package pearlymarket_project.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pearlymarket_project.utilities.Driver;
+import pearlymarket_project.tests.positivetests.utilities.Driver;
 
 public class PearlyMarketHomePage {
 
@@ -14,7 +14,11 @@ public class PearlyMarketHomePage {
     }
 
 
+<<<<<<< HEAD
 
+=======
+    //Sign In button in home page
+>>>>>>> main
     @FindBy(xpath = "//span[text()='Sign In']")
     public WebElement signInHome;
 
@@ -41,11 +45,15 @@ public class PearlyMarketHomePage {
     @FindBy(xpath = "(//div//small)[1]")
     public WebElement weakPswMessage;
 
+    //Search box to search for products
+
     @FindBy(xpath = "(//input[@type='search'])[1]")
     public WebElement searchBox;
 
     //My Account element
     @FindBy(xpath = "//a[text()='My Account']")
     public WebElement myAccount;
+
+
 
 }
