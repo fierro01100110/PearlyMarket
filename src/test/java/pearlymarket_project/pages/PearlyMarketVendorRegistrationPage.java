@@ -38,7 +38,7 @@ public class PearlyMarketVendorRegistrationPage {
 
     //Message when sign up as existed account
     @FindBy(xpath = "//*[text()='This Email already exists. Please login to the site and apply as vendor.']")
-    public WebElement existedAccountMessage;
+    public WebElement errorMessage;
 
 
 }

@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.positivetests;
 
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;

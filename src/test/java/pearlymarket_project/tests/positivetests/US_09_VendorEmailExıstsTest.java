@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.positivetests;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -10,7 +10,6 @@ import pearlymarket_project.utilities.Driver;
 import pearlymarket_project.utilities.ReusableMethod;
 import pearlymarket_project.utilities.WaitUtils;
 
-import static pearlymarket_project.utilities.ReusableMethod.getTextWithTimeout;
 import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
 
 public class US_09_VendorEmailExıstsTest {
@@ -66,7 +65,7 @@ public class US_09_VendorEmailExıstsTest {
         WaitUtils.waitFor(3);
 
         String expectedData= "This Email already exists. Please login to the site and apply as vendor.";
-        ReusableMethod.verifyActualAndExpectedTextMatch(expectedData,vrp.existedAccountMessage);
+        ReusableMethod.verifyActualAndExpectedTextMatch(expectedData,vrp.errorMessage);
 
         //Close driver
         Driver.closeDriver();
