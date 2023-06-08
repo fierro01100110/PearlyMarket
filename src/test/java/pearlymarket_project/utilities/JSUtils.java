@@ -41,7 +41,7 @@ public class JSUtils {
    and returns that WebElement
    Note that this is NOT common and we should use 8 locators that we learned in selenium
     */
-    public WebElement locateElementsByJS(String idOfElement){
+    public static WebElement locateElementsByJS(String idOfElement){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         return ((WebElement)js.executeScript("return document.getElementById('"+idOfElement+"')"));
     }

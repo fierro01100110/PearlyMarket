@@ -7,10 +7,8 @@
     <list default="true" id="3c73a171-2c3d-4b3d-8f28-c57337fe2f78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AccountDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AccountDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_05_UserEditAccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_05_UserEditAccountDetails">
+  <component name="RunManager" selected="TestNG.US_05_UserEditAccountDetailsNegative">
     <configuration name="US_05_UserEditAccountDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -70,6 +68,41 @@
       <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
       <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_05_UserEditAccountDetails" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_05_UserEditAccountDetailsNegative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_05_UserEditAccountDetailsNegative" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_05_UserEditAccountDetailsNegative.testCase01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_05_UserEditAccountDetailsNegative" />
+      <option name="METHOD_NAME" value="testCase01" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -112,49 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_05_UserEditAccountDetails.testCase06" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.positivetests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_05_UserEditAccountDetails" />
-      <option name="METHOD_NAME" value="testCase06" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_05_UserEditAccountDetails.testCase2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_05_UserEditAccountDetails" />
-      <option name="METHOD_NAME" value="testCase2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US_05_UserEditAccountDetailsNegative" />
+        <item itemvalue="TestNG.US_05_UserEditAccountDetailsNegative.testCase01" />
         <item itemvalue="TestNG.US_05_UserEditAccountDetails" />
         <item itemvalue="TestNG.US_05_UserEditAccountDetails.test07" />
         <item itemvalue="TestNG.US_05_UserEditAccountDetails.testCase01" />
-        <item itemvalue="TestNG.US_05_UserEditAccountDetails.testCase06" />
-        <item itemvalue="TestNG.US_05_UserEditAccountDetails.testCase2" />
       </list>
     </recent_temporary>
   </component>

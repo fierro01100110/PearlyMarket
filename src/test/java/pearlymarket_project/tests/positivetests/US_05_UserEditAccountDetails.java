@@ -1,8 +1,6 @@
 package pearlymarket_project.tests.positivetests;
-
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
@@ -11,10 +9,10 @@ import pearlymarket_project.utilities.*;
 
 
 public class US_05_UserEditAccountDetails {
-
-
     PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
     AccountDetailsPage accountDetailsPage = new AccountDetailsPage();
+    JavascriptExecutor js=(JavascriptExecutor)Driver.getDriver();
+
     Faker faker = new Faker();
     String username = faker.name().username();
     String email = faker.internet().emailAddress();
@@ -79,7 +77,7 @@ public class US_05_UserEditAccountDetails {
         accountDetailsPage.signIn.click();
 
         //6. User clicks My Account link
-        WaitUtils.waitFor(5);
+        WaitUtils.waitFor(2);
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.myAccountLink);
 
@@ -144,7 +142,6 @@ public class US_05_UserEditAccountDetails {
 
 //      9. User should be able to see  the changed Display Name
         Assert.assertEquals(accountDetailsPage.accountDisplayName.getAttribute("value"), changedDisplayName);
-        System.out.println("Changed Display Name :"+changedDisplayName);
 
 //        10.  User should be able to see the changed Email address
         Assert.assertEquals(accountDetailsPage.accountEmail.getAttribute("value"), changedEmail);
@@ -157,9 +154,9 @@ public class US_05_UserEditAccountDetails {
         ReusableMethod.switchIframeByWebElement("//iframe[@id='user_description_ifr']");
         accountDetailsPage.biographyTextArea.sendKeys("Welcome to Account Details Page");
         Driver.getDriver().switchTo().defaultContent();
-
         WaitUtils.waitFor(2);
-//    2. User clicks SAVE CHANGES button
+
+  //     2. User clicks SAVE CHANGES button
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.saveChangesButton);
 
@@ -175,11 +172,9 @@ public class US_05_UserEditAccountDetails {
     @Test
     public void testCase06() {
 
-//        1. User writes current password
-
-        WaitUtils.waitFor(2);
-
-        //accountDetailsPage.currentPassword.sendKeys(password);
+//   1. User writes current password
+        Driver.getDriver().navigate().refresh();
+        WaitUtils.waitFor(5);
         JSUtils.setValueByJS(accountDetailsPage.currentPassword, password);
 
         // 2. User writes New Password
@@ -206,14 +201,13 @@ public class US_05_UserEditAccountDetails {
 
         //2. User clicks Log Out link
         accountDetailsPage.logOut.click();
+        WaitUtils.waitForPageToLoad(3);
 
-           WaitUtils.waitForPageToLoad(3);
         //3. User types Email address or Username
-        accountDetailsPage.userNameOrEmail.sendKeys(changedDisplayName);
+        accountDetailsPage.userNameOrEmail.sendKeys(changedEmail);
 
         //4. User types password
         accountDetailsPage.password.sendKeys(newPassword);
-
 
         //5. User clicks Sign In Button
         accountDetailsPage.signIn.click();
@@ -222,15 +216,13 @@ public class US_05_UserEditAccountDetails {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.myAccountLink);
 
+        //7. User clicks Account details link on the My Account Page
 
+        JSUtils.clickWithTimeoutByJS(accountDetailsPage.accountDetailsLink);
 
-
-       //        6. User clicks My Account link
-//        1. User clicks Account details link on the My Account Page
-
-
-
-    }
+        //8. User should be able to see Account Details page
+        Assert.assertEquals(accountDetailsPage.getAccountDetailsText.getText(), "Account Details");
+   }
 
 
 
