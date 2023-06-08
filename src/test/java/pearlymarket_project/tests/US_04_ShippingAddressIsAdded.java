@@ -6,6 +6,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.*;
+import pearlymarket_project.tests.positivetests.utilities.ConfigReader;
+import pearlymarket_project.tests.positivetests.utilities.Driver;
+import pearlymarket_project.tests.positivetests.utilities.WaitUtils;
 import pearlymarket_project.utilities.*;
 
 import java.io.File;
@@ -13,7 +16,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static pearlymarket_project.utilities.WaitUtils.waitForClickablility;
+import static pearlymarket_project.tests.positivetests.utilities.WaitUtils.waitForClickablility;
 
 public class US_04_ShippingAddressIsAdded {
 

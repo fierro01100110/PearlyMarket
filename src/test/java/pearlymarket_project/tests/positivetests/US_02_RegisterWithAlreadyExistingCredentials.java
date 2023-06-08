@@ -3,11 +3,9 @@ package pearlymarket_project.tests.positivetests;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketRegisterPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-
-import java.security.SecureRandom;
+import pearlymarket_project.tests.positivetests.utilities.ConfigReader;
+import pearlymarket_project.tests.positivetests.utilities.Driver;
+import pearlymarket_project.tests.positivetests.utilities.ReusableMethod;
 
 public class US_02_RegisterWithAlreadyExistingCredentials {
     @Test
