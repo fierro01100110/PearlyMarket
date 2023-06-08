@@ -17,4 +17,6 @@ public class PearlyMarketRegisterPage {
 
     @FindBy(xpath = "//a[text()='Become a Vendor']")
     public WebElement becomeVendor;
+    @FindBy(xpath = "//span[text()='Sign Out']")
+    public WebElement successfulRegister ;
 }
