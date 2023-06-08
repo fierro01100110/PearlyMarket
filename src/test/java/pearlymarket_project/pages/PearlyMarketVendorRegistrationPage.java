@@ -3,7 +3,7 @@ package pearlymarket_project.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pearlymarket_project.utilities.Driver;
+import pearlymarket_project.tests.positivetests.utilities.Driver;
 
 public class PearlyMarketVendorRegistrationPage {
     public PearlyMarketVendorRegistrationPage(){
@@ -35,6 +35,10 @@ public class PearlyMarketVendorRegistrationPage {
     //For register button
     @FindBy(xpath = "//input[@value='Register']")
     public WebElement registerButton;
+
+    //Message when sign up as existed account
+    @FindBy(xpath = "//*[text()='This Email already exists. Please login to the site and apply as vendor.']")
+    public WebElement errorMessage;
 
 
 }
