@@ -48,6 +48,6 @@ public class US_10_PasswordChartVisibility {
         vrp.password.clear();
         Driver.closeDriver();
 
-        //!! when I use only question marks(?) or stars(*), it becomes strong after a point but when I use only periods(.) or only slashes(/), it does not become strong after any point
+        //!! when I use only question marks(?) or stars(*), it becomes strong after a point but when I use only periods(.) or only slashes(/),it does not become strong after any point
     }
 }
