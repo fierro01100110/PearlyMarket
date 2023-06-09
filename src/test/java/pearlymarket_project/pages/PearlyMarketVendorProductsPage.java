@@ -135,4 +135,37 @@ public class PearlyMarketVendorProductsPage {
     //ADD Attributes ==> Value
     @FindBy(xpath = "//textarea[@id='attributes_value_3']")
     public WebElement addValue;
+
+    //simple product
+    @FindBy(xpath = "select[id='product_type']")
+    public WebElement simpleProduct;
+
+    //virtualBox
+    @FindBy(xpath = "input[id='is_virtual']")
+    public WebElement virtualBox;
+
+    //downloadableBox
+    @FindBy(xpath = "input[id='is_downloadable']")
+    public WebElement downloadableBox;
+
+    //Product Title
+    @FindBy(xpath = "//*[@id='pro_title']")
+    public WebElement productTitle;
+
+    //Price
+    @FindBy(xpath = "(//*[text()='Sale Price ($)'])[1]")
+    public WebElement price;
+
+    //Sale Price
+    @FindBy(xpath = "//*[@id='sale_price']")
+    public WebElement salePrice;
+
+    //Selectable Categories
+    @FindBy(xpath = "//input[@value='229']" )
+    public WebElement selectableCategories;
+
+    //Selectable Categories
+    @FindBy(xpath = "//input[@data-super_parent='505']")
+    public WebElement selectableCategories2;
+
 }

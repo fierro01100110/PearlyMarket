@@ -44,19 +44,19 @@ public class US_01_Register {
             pearlyMarketRegisterPage.usernameBox.click();
 
             //User should enter username
-            ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.usernameBox,ConfigReader.getProperty("neslihan_username"),6);
+            ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.usernameBox,ConfigReader.getProperty("andrey_username"),6);
 
             //User clicks "EmailBox"
             pearlyMarketRegisterPage.emailBox.click();
 
             //User should enter email address.
-            ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.emailBox,ConfigReader.getProperty("neslihan_email"),6);
+            ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.emailBox,ConfigReader.getProperty("andrey_email"),6);
 
             //User clicks "PasswordBox" button
-            pearlyMarketRegisterPage.passwordBox.click();
+            //pearlyMarketRegisterPage.passwordBox.click();
 
             //User should enter password
-            ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.passwordBox,ConfigReader.getProperty("neslihan_password"),6);
+            ReusableMethod.sendKeysWithTimeout(pearlyMarketHomePage.passwordBox,ConfigReader.getProperty("andrey_password"),6);
 
             //User should check "I agree to the privacy policy"
             pearlyMarketRegisterPage.confirmBox.click();

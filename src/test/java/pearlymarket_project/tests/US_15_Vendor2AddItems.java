@@ -55,12 +55,9 @@ public class US_15_Vendor2AddItems {
             ReusableMethod.scrollDownActions();
         }
 
-
         WaitUtils.waitFor(3);
         //User clicks to My Account
         pearlyMarketHomePage.myAccount.click();
-
-
 
         //Wait for page to reload
         WaitUtils.waitFor(3);
