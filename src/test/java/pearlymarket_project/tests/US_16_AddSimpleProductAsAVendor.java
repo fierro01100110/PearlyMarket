@@ -1,6 +1,8 @@
 package pearlymarket_project.tests;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -52,6 +54,7 @@ public class US_16_AddSimpleProductAsAVendor {
         for (int i=0; i<4;i++) {
             ReusableMethod.scrollDownActions();
         }
+
 
         WaitUtils.waitFor(3);
         //User clicks to My Account

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a8900b-0881-421a-b46d-3589840a6899" name="Changes" comment="" />
+    <list default="true" id="77a8900b-0881-421a-b46d-3589840a6899" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_16_AddSimpleProductAsAVendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_16_AddSimpleProductAsAVendor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +51,7 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_01_Register.US01RegisterTest">
+  <component name="RunManager" selected="TestNG.US_15_Vendor2AddItems.testCase02">
     <configuration name="US_01_Register.US01RegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -78,6 +81,24 @@
       <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
       <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_15_Vendor2AddItems" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_15_Vendor2AddItems.testCase02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_15_Vendor2AddItems" />
+      <option name="METHOD_NAME" value="testCase02" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,21 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendorEmailExısts.vendorEmailExistsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US_15_Vendor2AddItems.testCase02" />
+        <item itemvalue="TestNG.US_16_AddSimpleProductAsAVendor.goToTheWebsiteAsAVendorTest" />
         <item itemvalue="TestNG.US_01_Register.US01RegisterTest" />
         <item itemvalue="TestNG.US_15_Vendor2AddItems" />
-        <item itemvalue="TestNG.US_16_AddSimpleProductAsAVendor.goToTheWebsiteAsAVendorTest" />
         <item itemvalue="TestNG.US_16_AddSimpleProductAsAVendor" />
-        <item itemvalue="TestNG.VendorEmailExısts.vendorEmailExistsTest" />
       </list>
     </recent_temporary>
   </component>
