@@ -11,6 +11,8 @@ import java.util.Random;
 import static org.testng.AssertJUnit.*;
 import static org.testng.AssertJUnit.assertFalse;
 
+
+
 public class ReusableMethod {
 
     public static void clickWithTimeOut(WebElement element, int timeout) {
@@ -114,7 +116,7 @@ public class ReusableMethod {
         return select.getFirstSelectedOption();
     }
     //    DROPDOWN: accepts dropdown element and returns all selected element texts as an arraylist
-    public ArrayList<String> getDropdownSelectedOptions(WebElement element) throws Exception {
+    public static ArrayList<String> getDropdownSelectedOptions(WebElement element) throws Exception {
         if (element!=null){
             Select list = new Select(element);
             ArrayList<WebElement> allSelectedOptions = (ArrayList<WebElement>) list.getAllSelectedOptions();
@@ -206,10 +208,14 @@ public class ReusableMethod {
         }
     }
     //    ALERT
-    public void acceptAlert() throws InterruptedException {
+    public static void acceptAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
-    public void dismissAlert() throws InterruptedException {
+
+    public static void sendKeysAlert(String text) throws InterruptedException {
+        Driver.getDriver().switchTo().alert().sendKeys(text);
+    }
+    public static void dismissAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
     //    IFRAME
@@ -279,5 +285,4 @@ public class ReusableMethod {
         //        Actions actions = new Actions(driver);
         new Actions(Driver.getDriver()).dragAndDropBy(source,x,y).perform();
     }
-
 }
