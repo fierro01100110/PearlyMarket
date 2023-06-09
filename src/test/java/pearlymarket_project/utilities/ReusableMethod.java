@@ -12,6 +12,8 @@ import static org.testng.AssertJUnit.*;
 import static org.testng.AssertJUnit.assertFalse;
 import static pearlymarket_project.utilities.WaitUtils.waitForVisibility;
 
+
+
 public class ReusableMethod {
     public static void clickWithTimeoutByJS(WebElement element) {
         ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", waitForVisibility(element,5));
@@ -211,10 +213,14 @@ public class ReusableMethod {
         }
     }
     //    ALERT
-    public void acceptAlert() throws InterruptedException {
+    public static void acceptAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
-    public void dismissAlert() throws InterruptedException {
+
+    public static void sendKeysAlert(String text) throws InterruptedException {
+        Driver.getDriver().switchTo().alert().sendKeys(text);
+    }
+    public static void dismissAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
     //    IFRAME
@@ -284,5 +290,4 @@ public class ReusableMethod {
         //        Actions actions = new Actions(driver);
         new Actions(Driver.getDriver()).dragAndDropBy(source,x,y).perform();
     }
-
 }
