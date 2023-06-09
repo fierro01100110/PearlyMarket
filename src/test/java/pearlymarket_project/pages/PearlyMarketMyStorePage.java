@@ -16,6 +16,10 @@ public class PearlyMarketMyStorePage {
     public WebElement photo;
     @FindBy(xpath = "//select[@id='product_type']")
     public WebElement productType;
+
+
+    @FindBy(xpath = "//input[@id='is_virtual']")
+    public WebElement virtualBox;
     @FindBy(xpath = "//input[@id='pro_title']")
     public WebElement productTitle;
 
@@ -36,8 +40,29 @@ public class PearlyMarketMyStorePage {
     @FindBy(xpath = "//body[@data-id='description']")
     public WebElement description;
 
+    @FindBy(xpath = "//input[@value='428']")
+    public WebElement categories;
 
+    //add new categories
+    @FindBy(xpath = "//p[text()='+Add new category']")
+    public WebElement addnewCategories;
 
+    //category name
+    @FindBy(xpath = "//input[@id='wcfm_new_cat']")
+    public WebElement categoryName;
+    //PARENT CATEGORY
+    @FindBy(xpath = "//select[@id='wcfm_new_parent_cat']")
+    public WebElement parentCategory;
+
+    @FindBy(xpath = "//p[text()='+Add new Product brands']")
+    public WebElement addNewProductBrand;
+
+    //new product brand
+    @FindBy(xpath = "//input[@id='wcfm_new_product_brand']")
+    public WebElement productBrandsName;
+    //dropdow for parent taxonomy
+    @FindBy(xpath = "//select[@id='wcfm_new_parent_product_brand']")
+    public WebElement parentTaxonomy;
 
 
 }
