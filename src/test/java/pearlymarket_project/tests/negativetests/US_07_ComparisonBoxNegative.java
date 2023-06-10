@@ -1,13 +1,13 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.negativetests;
 
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import pearlymarket_project.pages.PearlyMarketComparisonPage;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketSignInPage;
 import pearlymarket_project.utilities.*;
 
-public class US_007_ComparisonBox {
+public class US_07_ComparisonBoxNegative {
 
     PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
     PearlyMarketComparisonPage pearlyMarketComparisonPage = new PearlyMarketComparisonPage();
@@ -124,24 +124,18 @@ public class US_007_ComparisonBox {
         //User clicks "Start Compare" button
 
         ReusableMethod.clickWithTimeOut(pearlyMarketComparisonPage.startCompare, 3);
-     Thread.sleep(3000);
+        Thread.sleep(3000);
 
-        Driver.getDriver().navigate().back();
+        SoftAssert softAssert = new SoftAssert();
 
-        WaitUtils.waitFor(2);
+        softAssert.assertTrue(pearlyMarketComparisonPage.cleanAllButton1.isDisplayed(),"Failed because Comparison Page should have Clean All Button");
 
-        pearlyMarketComparisonPage.comparisonbutton5.click();
+      softAssert.assertAll();
 
-        ReusableMethod.clickWithTimeOut(pearlyMarketComparisonPage.cleanAllButton1, 3);
+      //User shuld be able topdaaadd de
 
 
 
 
     }
-
-
-
-
-
-
 }
