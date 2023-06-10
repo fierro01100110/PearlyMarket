@@ -87,12 +87,10 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "//select[@id='_wcfmmp_processing_time']")
     public WebElement processingTimeBox;
 
-<<<<<<< HEAD
     //Attributes==>Color box
     @FindBy(xpath = "//input[@id='attributes_is_active_1']")
     public WebElement colorBox;
 
-=======
 
     //Attributes==> Color check
     @FindBy(xpath = "//input[@id='attributes_is_active_1']")
@@ -112,12 +110,10 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "(//button[text()='Select none'])[1]")
     public WebElement selectNoneColors;
 
->>>>>>> main
     //Attributes==>Size box
     @FindBy(xpath = "//input[@id='attributes_is_active_2']")
     public WebElement sizeBox;
 
-<<<<<<< HEAD
 
     //Attributes==>Size Whole Box
     @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_size ui-sortable-handle']")
@@ -127,7 +123,6 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_color ui-sortable-handle']")
     public WebElement colorWholeBox;
 
-=======
     //Attributes==>Size box==>Select all
     @FindBy(xpath = "(//button[text()='Select all'])[2]")
     public WebElement selectAllSize;
@@ -153,5 +148,4 @@ public class PearlyMarketVendorProductsPage {
     //ADD Attributes ==> Value
     @FindBy(xpath = "//textarea[@id='attributes_value_3']")
     public WebElement addValue;
->>>>>>> main
 }

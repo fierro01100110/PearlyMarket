@@ -1,21 +1,7 @@
 package pearlymarket_project.utilities;
-<<<<<<< HEAD
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
-
-import java.time.Duration;
-=======
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
->>>>>>> main
 
 public class JSUtils {
     /*
@@ -26,7 +12,6 @@ public class JSUtils {
     public static void scrollIntoViewJS(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].scrollIntoView(true);",element);
-<<<<<<< HEAD
     }
     /*
     scroll all the way down
@@ -43,24 +28,6 @@ public class JSUtils {
         js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
     }
     /*
-=======
-    }
-    /*
-    scroll all the way down
-     */
-    public static void scrollAllTheWayDownJS(){
-        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
-    }
-    /*
-    scroll all the way up
-     */
-    public static void scrollAllTheWayUpJS(){
-        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
-    }
-    /*
->>>>>>> main
     @param WebElement
     clicks on that element
      */
@@ -75,11 +42,7 @@ public class JSUtils {
    and returns that WebElement
    Note that this is NOT common and we should use 8 locators that we learned in selenium
     */
-<<<<<<< HEAD
-    public WebElement locateElementsByJS(String idOfElement){
-=======
     public static WebElement locateElementsByJS(String idOfElement){
->>>>>>> main
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         return ((WebElement)js.executeScript("return document.getElementById('"+idOfElement+"')"));
     }
@@ -99,14 +62,8 @@ public class JSUtils {
         String value=js.executeScript("return document.getElementById('"+idOfElement+"').value").toString();
         System.out.println(value);
         return value;
-<<<<<<< HEAD
-
-    }
-
-=======
 
     }
 
 
->>>>>>> main
 }

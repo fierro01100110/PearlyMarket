@@ -3,26 +3,21 @@ package pearlymarket_project.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-<<<<<<< HEAD
-import pearlymarket_project.utilities.Driver;
-
-=======
-
-
 import pearlymarket_project.utilities.Driver;
 
 
->>>>>>> main
+
+import pearlymarket_project.utilities.Driver;
+
+
 public class PearlyMarketMyAccountPage {
 
     public PearlyMarketMyAccountPage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
-<<<<<<< HEAD
     }
 
 
-=======
 
     }
 
@@ -82,26 +77,19 @@ public class PearlyMarketMyAccountPage {
 
 
 
->>>>>>> main
     //Store Manager element
     @FindBy(xpath = "//a[text()='Store Manager']")
     public WebElement storeManager;
 
-<<<<<<< HEAD
-=======
 
->>>>>>> main
     //Products element
     @FindBy(xpath = "(//span[@class='wcfmfa fa-cube'])[1]")
     public WebElement products;
 
     //Add New when you Hover Over to Products
-<<<<<<< HEAD
-    @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
-    public WebElement addNewProducts;
-=======
+    //@FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
+    //public WebElement addNewProducts;
     @FindBy(xpath = "//span[text()='Add New']")
     public WebElement addNewProducts;
 
->>>>>>> main
 }
