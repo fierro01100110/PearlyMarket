@@ -4,6 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="d8e5658d-b155-493b-aa52-785f5f12f9f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_11_SignInAsVendorTest.java" beforeDir="false" />
     <list default="true" id="fecd4ed3-cd1d-453c-9094-e93e6a01c809" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ListenersUtil.java" afterDir="false" />
@@ -79,6 +83,17 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
+  <component name="RunManager" selected="TestNG.US_11_SignInAsVendorTest">
+    <configuration name="US_11_SignInAsVendorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.positivetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_11_SignInAsVendorTest" />
   <component name="RunManager" selected="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003">
     <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
@@ -134,6 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true">
     <configuration name="US_12_VendorBillingAddress.addingBillingAddress_TestCase003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -143,6 +159,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_11_SignInAsVendorTest" />
+      <option name="METHOD_NAME" value="signInAsVendor" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
       <option name="METHOD_NAME" value="addingBillingAddress_TestCase003" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -172,6 +191,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US_11_SignInAsVendorTest" />
+        <item itemvalue="TestNG.US_11_SignInAsVendorTest.signInAsVendor" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest2" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest (1)" />
