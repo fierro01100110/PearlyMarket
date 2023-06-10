@@ -66,7 +66,6 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath =" (//p['The following addresses will be used on the checkout page by default.'])[1]" )
     public WebElement address_added;
 
-
     @FindBy(xpath = "//a[text()='Edit Your Billing Address']")
     public WebElement editYourBillingAddress;
 
