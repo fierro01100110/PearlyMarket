@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a6fc71-46df-496b-99de-9bc091cf93f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610055712image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_04_ShippingAddressIsAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging hakan",
+    "git-widget-placeholder": "hakan",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -59,12 +61,12 @@
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_04_ShippingAddressIsAdded" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_04_ShippingAddressIsAdded" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -80,29 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_12_VendorBillingAddress" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
-      <option name="METHOD_NAME" value="addingBillingAddressTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +100,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
+      <option name="METHOD_NAME" value="addingBillingAddressTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="US_12_VendorBillingAddress.addingBillingAddress_TestCase003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
