@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c73a171-2c3d-4b3d-8f28-c57337fe2f78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610014459image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610014503image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610020517image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610020522image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_05_UserEditAccountDetailsNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_05_UserEditAccountDetailsNegative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230609044409extent_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044420image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044430image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044434image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044437image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044501image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044509image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
