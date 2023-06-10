@@ -45,5 +45,15 @@ public class PearlyMarketSearchingProductsPage {
     @FindBy(xpath = "//button[@title='Minus']")
     public WebElement minusButton;
 
+    //Checkout button
+    @FindBy(xpath = "//a[text()='Checkout']")
+    public WebElement checkOutButton;
+
+    //Place Order button
+    @FindBy(id = "place_order")
+    public WebElement placeOrder;
+
+
+
 
 }
