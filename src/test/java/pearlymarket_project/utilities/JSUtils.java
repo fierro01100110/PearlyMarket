@@ -1,27 +1,16 @@
 package pearlymarket_project.utilities;
-<<<<<<< HEAD
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
-import java.time.Duration;
-=======
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
->>>>>>> main
+
 
 public class JSUtils {
     /*
-  JAVASCRIPT EXECUTOR METHODS
-   @param WebElement
-   scrolls into that element
-    */
+JAVASCRIPT EXECUTOR METHODS
+@param WebElement
+scrolls into that element
+ */
     public static void scrollIntoViewJS(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].scrollIntoView(true);",element);
@@ -63,7 +52,7 @@ public class JSUtils {
     @param1 WebElement, @param2 String
     type the string in that web element
      */
-    public static void setValueByJS(WebElement inputElement,String text){
+    public static void setValueByJS(WebElement inputElement, String text){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].setAttribute('value','"+text+"')",inputElement);
     }
@@ -77,20 +66,4 @@ public class JSUtils {
         return value;
 
     }
-
-
-<<<<<<< HEAD
-        if (driver!=null){
-            driver.quit();
-            driver=null;
-        }
-
-    }
-
-    public static void scrollAllTheWayDownJS() {
-        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
-    }
-=======
->>>>>>> main
 }
