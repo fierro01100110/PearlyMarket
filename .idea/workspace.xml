@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecd4ed3-cd1d-453c-9094-e93e6a01c809" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ListenersUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/LoggerUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_12_VendorBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_12_VendorBillingAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065902image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065910image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065913image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065916image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065937image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103308image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103316image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103318image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103321image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103344image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103345image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
