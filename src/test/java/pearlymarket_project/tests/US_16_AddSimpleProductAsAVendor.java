@@ -61,7 +61,7 @@ public class US_16_AddSimpleProductAsAVendor {
 
         WaitUtils.waitFor(3);
         //User clicks to My Account
-        JSUtils.clickWithTimeoutByJS(pearlyMarketHomePage.myAccountt);
+        JSUtils.clickWithTimeoutByJS(pearlyMarketHomePage.myAccount);
         // pearlyMarketHomePage.myAccountt.click();
 
         //Wait for page to reload

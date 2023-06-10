@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.negativetests;
 import pearlymarket_project.utilities.JSUtils;
 
 
