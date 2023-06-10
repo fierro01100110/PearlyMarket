@@ -1,20 +1,25 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.negativetests;
+import pearlymarket_project.utilities.JSUtils;
 
-import org.bouncycastle.jcajce.provider.symmetric.AES;
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketMyAccountPage;
 import pearlymarket_project.pages.PearlyMarketSignInPage;
 import pearlymarket_project.pages.PearlyMarketVendorProductsPage;
-import pearlymarket_project.utilities.*;
+import pearlymarket_project.utilities.ConfigReader;
+import pearlymarket_project.utilities.Driver;
+import pearlymarket_project.utilities.ReusableMethod;
+import pearlymarket_project.utilities.WaitUtils;
 
 import java.util.List;
+
+import static org.testng.AssertJUnit.assertTrue;
 
 public class US_15_Vendor2AddItems {
 
@@ -198,25 +203,65 @@ public class US_15_Vendor2AddItems {
 
 
     @Test(priority = 4)
-    public void testCase04(){
+    public void testCase04() throws InterruptedException {
 
         PearlyMarketVendorProductsPage pearlyMarketVendorProductsPage = new PearlyMarketVendorProductsPage();
 
         //User clicks Attributes menu
         pearlyMarketVendorProductsPage.attributes.click();
 
-        //User Clicks to Color
-        pearlyMarketVendorProductsPage.colorBox.click();
+
+
+
+        //User select Color Options
+        JSUtils.clickWithTimeoutByJS(pearlyMarketVendorProductsPage.colorCheck);
+
+        //Check if all the options are clickable
+        pearlyMarketVendorProductsPage.selectAllColors.click();
+
+        WaitUtils.waitFor(2);
+
+        //Check if all colors are deletable
+        pearlyMarketVendorProductsPage.selectNoneColors.click();
+
+
+
+        //ALERT
+//        //User Adds New Color
+//        pearlyMarketVendorProductsPage.addNewColor.click();
+//        WaitUtils.waitFor(2);
 //
-        //User clicks to Size
-        pearlyMarketVendorProductsPage.sizeBox.click();
+//
+//        String name = "Hello World";
+//        ReusableMethod.acceptAlert();
 
 
+
+
+        //User selects Size Options
+        JSUtils.clickWithTimeoutByJS(pearlyMarketVendorProductsPage.sizeBox);
+
+        //Checking if user can select all size
+        JSUtils.clickWithTimeoutByJS(pearlyMarketVendorProductsPage.selectAllSize);
+
+        //Checking non-select functionality
+        JSUtils.clickWithTimeoutByJS(pearlyMarketVendorProductsPage.selectNoneSize);
+
+        //User adds New Attribute
+        pearlyMarketVendorProductsPage.addAttribute.click();
+
+        //Add name
+        pearlyMarketVendorProductsPage.addName.sendKeys("Hello");
+
+        //Add Value
+        pearlyMarketVendorProductsPage.addValue.sendKeys("Hi");
+
+
+        //Close Driver
+        Driver.closeDriver();
 
 
     }
-
-
 
 
 }
