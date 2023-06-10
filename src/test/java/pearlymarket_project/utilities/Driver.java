@@ -65,7 +65,6 @@ public class Driver {
         }
     }
 
-
     /*
   scroll all the way down
    */
