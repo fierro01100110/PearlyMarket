@@ -10,8 +10,15 @@ import java.util.Random;
 
 import static org.testng.AssertJUnit.*;
 import static org.testng.AssertJUnit.assertFalse;
+import static pearlymarket_project.utilities.WaitUtils.waitForVisibility;
+
+
 
 public class ReusableMethod {
+    public static void clickWithTimeoutByJS(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", waitForVisibility(element,5));
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
+    }
 
     public static void clickWithTimeOut(WebElement element, int timeout) {
         for (int i = 0; i < timeout; i++) {
@@ -114,7 +121,7 @@ public class ReusableMethod {
         return select.getFirstSelectedOption();
     }
     //    DROPDOWN: accepts dropdown element and returns all selected element texts as an arraylist
-    public ArrayList<String> getDropdownSelectedOptions(WebElement element) throws Exception {
+    public static ArrayList<String> getDropdownSelectedOptions(WebElement element) throws Exception {
         if (element!=null){
             Select list = new Select(element);
             ArrayList<WebElement> allSelectedOptions = (ArrayList<WebElement>) list.getAllSelectedOptions();
@@ -199,17 +206,21 @@ public class ReusableMethod {
     public static void verifyActualAndExpectedTextMatch(String expectedText,WebElement actualElement){
         try{
             //    Just in case there is a synchronization issue, handle it first then get the text
-            WaitUtils.waitForVisibility(actualElement,10);
+            waitForVisibility(actualElement,10);
             assertEquals(expectedText,actualElement.getText());
         }catch (NoSuchElementException e){
             e.printStackTrace();
         }
     }
     //    ALERT
-    public void acceptAlert() throws InterruptedException {
+    public static void acceptAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
-    public void dismissAlert() throws InterruptedException {
+
+    public static void sendKeysAlert(String text) throws InterruptedException {
+        Driver.getDriver().switchTo().alert().sendKeys(text);
+    }
+    public static void dismissAlert() throws InterruptedException {
         Driver.getDriver().switchTo().alert().accept();
     }
     //    IFRAME
@@ -279,5 +290,4 @@ public class ReusableMethod {
         //        Actions actions = new Actions(driver);
         new Actions(Driver.getDriver()).dragAndDropBy(source,x,y).perform();
     }
-
 }
