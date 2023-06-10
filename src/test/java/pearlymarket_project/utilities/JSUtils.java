@@ -1,6 +1,7 @@
 package pearlymarket_project.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -63,5 +64,10 @@ public class JSUtils {
             driver=null;
         }
 
+    }
+
+    public static void scrollAllTheWayDownJS() {
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
     }
 }

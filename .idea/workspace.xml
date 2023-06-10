@@ -4,24 +4,154 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a85bec-a1cd-4e3c-8c66-17f22f6950f6" name="Changes" comment="" />
+    <list default="true" id="98a85bec-a1cd-4e3c-8c66-17f22f6950f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketAddressesPageB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketEditingBillingAddressPageB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePageB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPageB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/AddingBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/Betul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/Betul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QlS9gBxo2mhkRR52XZpIqENFws" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="TestNG.AddingBillingAddress">
+    <configuration name="Gizem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.Gizem" />
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddingBillingAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.AddingBillingAddress" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddingBillingAddress.addingBillingAddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.AddingBillingAddress" />
+      <option name="METHOD_NAME" value="addingBillingAddressTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendorEmailExısts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.VendorEmailExısts" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendorEmailExısts.vendorEmailExistsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.VendorEmailExısts" />
+      <option name="METHOD_NAME" value="vendorEmailExistsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddingBillingAddress" />
+        <item itemvalue="TestNG.AddingBillingAddress.addingBillingAddressTest" />
+        <item itemvalue="TestNG.VendorEmailExısts" />
+        <item itemvalue="TestNG.VendorEmailExısts.vendorEmailExistsTest" />
+        <item itemvalue="Application.Gizem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98a85bec-a1cd-4e3c-8c66-17f22f6950f6" name="Changes" comment="" />
+      <created>1685926525054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685926525054</updated>
+    </task>
     <servers />
   </component>
 </project>
