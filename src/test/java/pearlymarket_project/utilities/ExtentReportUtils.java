@@ -4,12 +4,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> main
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
