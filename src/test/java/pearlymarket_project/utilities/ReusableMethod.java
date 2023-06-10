@@ -10,10 +10,15 @@ import java.util.Random;
 
 import static org.testng.AssertJUnit.*;
 import static org.testng.AssertJUnit.assertFalse;
+import static pearlymarket_project.utilities.WaitUtils.waitForVisibility;
 
 
 
 public class ReusableMethod {
+    public static void clickWithTimeoutByJS(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", waitForVisibility(element,5));
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
+    }
 
     public static void clickWithTimeOut(WebElement element, int timeout) {
         for (int i = 0; i < timeout; i++) {
@@ -201,7 +206,7 @@ public class ReusableMethod {
     public static void verifyActualAndExpectedTextMatch(String expectedText,WebElement actualElement){
         try{
             //    Just in case there is a synchronization issue, handle it first then get the text
-            WaitUtils.waitForVisibility(actualElement,10);
+            waitForVisibility(actualElement,10);
             assertEquals(expectedText,actualElement.getText());
         }catch (NoSuchElementException e){
             e.printStackTrace();
