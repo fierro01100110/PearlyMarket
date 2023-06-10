@@ -19,11 +19,14 @@ public class PearlyMarketHomePage {
 
     @FindBy(xpath = "//span[text()='Sign In']")
     public WebElement signInHome;
-
+    @FindBy(xpath = "//i[@class='w-icon-hamburger']")
+    public WebElement MyAccount;
 
 
     @FindBy(xpath = "//span[text()='Register']")
     public WebElement register;
+
+
     @FindBy(xpath = "//input[@id='reg_username']")
     public WebElement usernameBox;
     @FindBy(xpath = "//input[@id='reg_email']")
