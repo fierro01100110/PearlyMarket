@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7a6fc71-46df-496b-99de-9bc091cf93f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610055712image.png" afterDir="false" />
+    <list default="true" id="9107e32e-71c6-4bdc-8003-0c2e47a80648" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_04_ShippingAddressIsAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "hakan",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "git-widget-placeholder": "Merging hakan"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,17 +49,8 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_04_ShippingAddressIsAdded">
-    <configuration name="US_04_ShippingAddressIsAdded" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_04_ShippingAddressIsAdded" />
+  <component name="RunManager" selected="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003">
+    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -100,7 +84,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_04_ShippingAddressIsAdded" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddress_TestCase003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
@@ -138,10 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_04_ShippingAddressIsAdded" />
         <item itemvalue="TestNG.US_11_SignInAsVendorTest.signInAsVendor" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003" />
-        <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest2" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest (1)" />
       </list>
     </recent_temporary>
