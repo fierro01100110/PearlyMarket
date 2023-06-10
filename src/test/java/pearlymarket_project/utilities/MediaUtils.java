@@ -32,7 +32,7 @@ This method captures sscreenshot of the entire page
     This method captures screenshot of specific elements
     this method accepts an elements and saves the screenshot of that element in the test-output folder
      */
-    public void takeScreenshotOfThisElement(WebElement element) throws IOException {
+    public static void takeScreenshotOfThisElement(WebElement element) throws IOException {
         File image = element.getScreenshotAs(OutputType.FILE);
         String now = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         String path = System.getProperty("user.dir")+"/test-output/ElementScreenshot/"+now+"image.png";
