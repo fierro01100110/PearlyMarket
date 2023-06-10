@@ -137,15 +137,15 @@ public class PearlyMarketVendorProductsPage {
     public WebElement addValue;
 
     //simple product
-    @FindBy(xpath = "select[id='product_type']")
+    @FindBy(xpath = "//select[@id='product_type']")
     public WebElement simpleProduct;
 
     //virtualBox
-    @FindBy(xpath = "input[id='is_virtual']")
+    @FindBy(xpath = "//input[@id='is_virtual']")
     public WebElement virtualBox;
 
     //downloadableBox
-    @FindBy(xpath = "input[id='is_downloadable']")
+    @FindBy(xpath = "//input[@id='is_downloadable']")
     public WebElement downloadableBox;
 
     //Product Title
@@ -167,5 +167,25 @@ public class PearlyMarketVendorProductsPage {
     //Selectable Categories
     @FindBy(xpath = "//input[@data-super_parent='505']")
     public WebElement selectableCategories2;
+
+    //add new category
+    @FindBy(xpath = "//p[text()='+Add new category']")
+    public WebElement addNewCategory;
+
+    //category Name
+    @FindBy(xpath = "//input[@id='wcfm_new_cat']")
+    public WebElement categoryName;
+
+    //parent category
+    @FindBy(xpath = "//select[@name='wcfm_new_parent_cat']")
+    public WebElement parentCategory;
+
+    //added product
+    @FindBy(xpath = "//*[.='hair comb']")
+    public WebElement addedProduct;
+
+    //add new button
+    @FindBy(xpath = "(//a[contains(text(),'Add New')])[2]")
+    public WebElement addNew;
 
 }

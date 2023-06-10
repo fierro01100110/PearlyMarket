@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a8900b-0881-421a-b46d-3589840a6899" name="Changes" comment="">
+    <list default="true" id="a9572e09-be93-4366-b7eb-bb5ed0a0cb6e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorMyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorProductsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_16_AddSimpleProductAsAVendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_16_AddSimpleProductAsAVendor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +55,8 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_15_Vendor2AddItems.testCase02">
-    <configuration name="US_01_Register.US01RegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US_16_AddSimpleProductAsAVendor.goToTheWebsiteAsAVendorTest">
+    <configuration name="US_01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +66,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
       <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_01_Register" />
-      <option name="METHOD_NAME" value="US01RegisterTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -87,24 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_15_Vendor2AddItems.testCase02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_15_Vendor2AddItems" />
-      <option name="METHOD_NAME" value="testCase02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="US_16_AddSimpleProductAsAVendor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -116,6 +101,24 @@
       <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
       <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_16_AddSimpleProductAsAVendor" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_16_AddSimpleProductAsAVendor.addSimpleProductAsAVendorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_16_AddSimpleProductAsAVendor" />
+      <option name="METHOD_NAME" value="addSimpleProductAsAVendorTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,18 +145,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_15_Vendor2AddItems.testCase02" />
         <item itemvalue="TestNG.US_16_AddSimpleProductAsAVendor.goToTheWebsiteAsAVendorTest" />
-        <item itemvalue="TestNG.US_01_Register.US01RegisterTest" />
-        <item itemvalue="TestNG.US_15_Vendor2AddItems" />
+        <item itemvalue="TestNG.US_16_AddSimpleProductAsAVendor.addSimpleProductAsAVendorTest" />
+        <item itemvalue="TestNG.US_01_Register" />
         <item itemvalue="TestNG.US_16_AddSimpleProductAsAVendor" />
+        <item itemvalue="TestNG.US_15_Vendor2AddItems" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fecd4ed3-cd1d-453c-9094-e93e6a01c809" name="Changes" comment="" />
+      <changelist id="a9572e09-be93-4366-b7eb-bb5ed0a0cb6e" name="Changes" comment="" />
       <created>1685509324087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

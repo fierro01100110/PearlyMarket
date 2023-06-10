@@ -1,18 +1,16 @@
 package pearlymarket_project.tests;
-
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.*;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-import pearlymarket_project.utilities.WaitUtils;
+import pearlymarket_project.utilities.*;
+
+import java.util.ResourceBundle;
+
 
 public class US_16_AddSimpleProductAsAVendor {
+
 
         //US-16  : User should be able to add Simple Product as a Vendor
 
@@ -26,7 +24,7 @@ public class US_16_AddSimpleProductAsAVendor {
         //User should be able to see that the new product has been added in the Product section.
 
     @Test
-        public void goToTheWebsiteAsAVendorTest(){
+        public void goToTheWebsiteAsAVendorTest() {
 
         PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
         PearlyMarketSignInPage pearlyMarketSignInPage = new PearlyMarketSignInPage();
@@ -51,14 +49,20 @@ public class US_16_AddSimpleProductAsAVendor {
         WaitUtils.waitFor(3);
 
         //User scrolls down
-        for (int i=0; i<4;i++) {
+        for (int i = 0; i < 4; i++) {
             ReusableMethod.scrollDownActions();
         }
 
 
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//        WebElement myAccountButton = driver.findElement(By.name("//h2[text()='My Account']");
+//        js.executeScript("arguments[0].click();",myAccountButton);
+
+
         WaitUtils.waitFor(3);
         //User clicks to My Account
-        pearlyMarketHomePage.myAccount.click();
+        JSUtils.clickWithTimeoutByJS(pearlyMarketHomePage.myAccountt);
+        // pearlyMarketHomePage.myAccountt.click();
 
         //Wait for page to reload
         WaitUtils.waitFor(3);
@@ -66,45 +70,43 @@ public class US_16_AddSimpleProductAsAVendor {
         //User clicks to Store Manager
         pearlyMarketMyAccountPage.storeManager.click();
 
-        //User hover overs to Product
-        ReusableMethod.hoverOverOnElementActions(pearlyMarketMyAccountPage.products);
+        //User navigates to Product Manage URL
+        Driver.getDriver().get(ConfigReader.getProperty("products_manage_url"));
 
-        //User clicks to Add New
-        WaitUtils.waitFor(3);
-        pearlyMarketMyAccountPage.addNewProducts.click();
+        //click add new button
+        //pearlyMarketVendorProductsPage.addNew.sendKeys(Keys.PAGE_DOWN, Keys.ENTER);
 
-        //User scrolls down
-        for (int i=0; i<2;i++){
-            ReusableMethod.scrollDownActions();
-        }
+        //"Simple Product" should be default
+       Assert.assertTrue(pearlyMarketVendorProductsPage.simpleProduct.isDisplayed());
+        // ReusableMethod.verifyElementDisplayed(pearlyMarketVendorProductsPage.simpleProduct);
 
-    }}
-//
-//        @Test
-//
-//        public void addSimpleProductAsAVendorTest(){
-//
-//        PearlyMarketVendorProductsPage pearlyMarketVendorProductsPage = new PearlyMarketVendorProductsPage();
-//
-//        //"Simple Product" should be default
-//        Assert.assertTrue(pearlyMarketVendorProductsPage.simpleProduct.isDisplayed());
-//
-//        //Virtual ve Downloadable should be selectable
-//        pearlyMarketVendorProductsPage.virtualBox.click();
-//        pearlyMarketVendorProductsPage.downloadableBox.click();
-//
-//        //User should be able to write Product Title
-//        Actions actions = new Actions(Driver.getDriver());
-//        actions.moveToElement(pearlyMarketVendorProductsPage.productTitle).sendKeys(Keys.TAB,"Comb").perform();
-//
-//        //User should be able to write Price ve Sale Price
-//        actions.moveToElement(pearlyMarketVendorProductsPage.price).sendKeys(Keys.TAB,"40").perform();
-//        actions.moveToElement(pearlyMarketVendorProductsPage.salePrice).sendKeys(Keys.TAB,"50").perform();
-//
-//        //User should be able to select categories
-//        pearlyMarketVendorProductsPage.selectableCategories.click();
-//
-//        //User should be able to see that the new product has been added in the Product section
-//
-//        }
-//}
+        //Virtual ve Downloadable should be selectable
+        pearlyMarketVendorProductsPage.virtualBox.click();
+        pearlyMarketVendorProductsPage.downloadableBox.click();
+
+        //User should be able to write Product Title
+        Actions actions = new Actions(Driver.getDriver());
+        actions.moveToElement(pearlyMarketVendorProductsPage.productTitle).sendKeys(Keys.TAB,"Comb").perform();
+
+        //User should be able to write Price ve Sale Price
+        actions.moveToElement(pearlyMarketVendorProductsPage.price).sendKeys(Keys.TAB,"40").perform();
+        actions.moveToElement(pearlyMarketVendorProductsPage.salePrice).sendKeys(Keys.TAB,"50").perform();
+
+        //User should be able to select categories
+        pearlyMarketVendorProductsPage.selectableCategories.click();
+
+        //User should be able to click Add New Category
+        pearlyMarketVendorProductsPage.addNewCategory.click();
+
+        //Vendor should write a name for the product that will be added
+        pearlyMarketVendorProductsPage.categoryName.sendKeys("Comb");
+
+        //Vendor should select a parent category for the product
+        ReusableMethod.selectByVisibleText(pearlyMarketVendorProductsPage.parentCategory, "Uncategorized");
+        //pearlyMarketVendorProductsPage.parentCategory.click();
+
+        //Vendor should see has been added product
+        Assert.assertTrue(pearlyMarketVendorProductsPage.addedProduct.isDisplayed());
+
+    }
+}

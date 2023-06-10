@@ -70,9 +70,6 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath = "//a[text()='Edit Your Billing Address']")
     public WebElement editYourBillingAddress;
 
-
-
-
     //Store Manager element
     @FindBy(xpath = "//a[text()='Store Manager']")
     public WebElement storeManager;
@@ -81,8 +78,14 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath = "(//span[@class='wcfmfa fa-cube'])[1]")
     public WebElement products;
 
+    @FindBy(xpath = "//div[@class='wcfm_menu_items wcfm_menu_wcfm-products']")
+    public WebElement products2;
+
     //Add New when you Hover Over to Products
     @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
     public WebElement addNewProducts;
 
+    //myAccount1
+    @FindBy(xpath = "(//*[text()='My Account'])[2]")
+    public WebElement myAccount1;
 }
