@@ -13,6 +13,7 @@ import pearlymarket_project.pages.PearlyMarketSignInPage;
 import pearlymarket_project.utilities.*;
 
 
+import java.io.IOException;
 import java.util.List;
 
 import static org.testng.AssertJUnit.assertTrue;
@@ -107,7 +108,7 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
 
     @Test
-    public void test2(){
+    public void test2() throws IOException {
         PearlyMarketSearchingProductsPage pearlyMarketSearchingProductsPage = new PearlyMarketSearchingProductsPage();
         PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
 
@@ -134,35 +135,26 @@ public class US_06_SearchDesiredProductInTheSearchBox {
         assertTrue(numOnCart>0);
 
 
+        //User should be able to increase the amount of the product
+        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.plusButton, 2);
+
+        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.addToCartButton, 3);
+
+
         //User clicks on cart icon
         ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.numberOnCartIcon, 2);
 
         //User clicks on "View Cart" button
-        JSUtils.clickWithTimeoutByJS(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.viewCartButton, 2));
+        JSUtils.clickWithTimeoutByJS(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.checkOutButton, 2));
 
-        //User clicks on the product whose amount will be adjusted
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.productSelectedFromCart, 2);
+        //User clicks on Place Order button to complete the purchase
+        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.placeOrder, 3);
 
-        //User should be able to increase the amount of the product
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.plusButton, 2);
+        WaitUtils.waitFor(4);
 
-        //Click on Add to Cart
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.addToCartButton, 2);
-
-        //User should see that the number of items increased
-        WaitUtils.waitFor(3);
-
-        int numOnCartAfterIncreasing = Integer.parseInt(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.numberOnCartIcon,2).getText());
-        System.out.println("numOnCartAfterIncreasing = " + numOnCartAfterIncreasing);
-
-        assertTrue(numOnCartAfterIncreasing>numOnCart);
-
-        //User should be able to decrease the amount of the product
-
-
-
-
-
+        ExtentReportUtils.fail("Success purchase message doesn't appear. Purchase fails");
+        ExtentReportUtils.flush();
+        MediaUtils.takeScreenshotOfTheEntirePageAsString();
 
 
 
