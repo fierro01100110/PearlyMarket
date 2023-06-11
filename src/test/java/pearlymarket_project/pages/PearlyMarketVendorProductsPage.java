@@ -87,10 +87,6 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "//select[@id='_wcfmmp_processing_time']")
     public WebElement processingTimeBox;
 
-    //Attributes==>Color box
-    @FindBy(xpath = "//input[@id='attributes_is_active_1']")
-    public WebElement colorBox;
-
 
     //Attributes==> Color check
     @FindBy(xpath = "//input[@id='attributes_is_active_1']")
