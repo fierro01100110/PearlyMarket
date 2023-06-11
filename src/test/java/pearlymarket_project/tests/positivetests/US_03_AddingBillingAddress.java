@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.positivetests;
 
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -10,7 +10,7 @@ import pearlymarket_project.utilities.*;
 
 import java.io.IOException;
 
-public class AddingBillingAddress {
+public class US_03_AddingBillingAddress {
 
 
     PearlyMarketHomePageB pearlyMarketHomePageB = new PearlyMarketHomePageB();
@@ -20,14 +20,16 @@ public class AddingBillingAddress {
      @Test
      public void addingBillingAddressTest_Tc_001() throws InterruptedException {
 
+         ExtentReportUtils.info("Test Case 01");
+
 //     User is on Home Page
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
 
 
 //     User signs in
         pearlyMarketHomePageB.signIn.click();
-        pearlyMarketHomePageB.username.sendKeys("Kendel");
-        pearlyMarketHomePageB.password.sendKeys("Rraapphhaaeell");
+        pearlyMarketHomePageB.username.sendKeys("fin");
+        pearlyMarketHomePageB.password.sendKeys("Ssppaarrooww");
         pearlyMarketHomePageB.rememberMeCheckBox.click();
         pearlyMarketHomePageB.signInButton.click();
 
@@ -85,14 +87,22 @@ public class AddingBillingAddress {
 //        User enters "Phone Number"
         pearlyMarketEditingBillingAddressPageB.phone.sendKeys("555-222-432");
         WaitUtils.waitFor(3);
+
+        ExtentReportUtils.pass("The billing address information is added successfully.");
+        ExtentReportUtils.flush();
     }
 
         @Test
         public void addingBillingAddressTest_Tc_002() throws IOException {
 
+            ExtentReportUtils.info("Test Case 02");
+
 //         User verifies Auto-Fill of Registered Email Address
 
             ReusableMethod.verifyElementDisplayed(pearlyMarketEditingBillingAddressPageB.emailAddress);
+
+            ExtentReportUtils.pass("The registered Email address is auto-filled.");
+            ExtentReportUtils.flush();
 
         }
 
@@ -100,13 +110,17 @@ public class AddingBillingAddress {
         @Test
         public void addingBillingAddressTest_Tc_003() throws IOException{
 
+            ExtentReportUtils.info("Test Case 03");
+
 //        User clicks on "Save Address".
-//        pearlyMarketEditingBillingAddressPageB.saveAddressButton.click();
+         pearlyMarketEditingBillingAddressPageB.saveAddressButton.click();
 
 
 //        User sees "Billing Address" is saved successfully" message.
            ReusableMethod.verifyElementDisplayed(pearlyMarketAddressesPageB.successAlert);
 
+           ExtentReportUtils.pass("'Billing Address' is saved successfully");
+           ExtentReportUtils.flush();
 
            Driver.closeDriver();
         }
