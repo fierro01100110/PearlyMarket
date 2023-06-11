@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
 
-  <component name="ChangeListManager">
+  <component name="ChangeListManager"/>
     <list default="true" id="db9a4931-520e-415b-9b5d-07a0d1a5b975" name="Changes" comment="" />
 
   <component name="ChangeListManager"/>
@@ -258,7 +258,7 @@
     </key>
     </component>
 
-  <component name="RunManager" selected="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003">
+  <component name="RunManager" selected="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003"/>
 
 
   <component name="RunManager" selected="TestNG.US_01_Register"/>
@@ -601,7 +601,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_13_VendorShippingAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_13_VendorShippingAddress" type="TestNG" temporary="true" nameIsGenerated="true"/>
 
     <configuration name="US_12_VendorBillingAddress.editingBillingAddressTest2" type="TestNG" temporary="true" nameIsGenerated="true"/>
 
