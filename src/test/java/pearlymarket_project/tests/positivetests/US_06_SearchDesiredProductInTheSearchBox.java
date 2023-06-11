@@ -103,6 +103,7 @@ public class US_06_SearchDesiredProductInTheSearchBox {
         ExtentReportUtils.pass("Purchase is success.");
         ExtentReportUtils.flush();
 
+        Driver.closeDriver();
 
 
 

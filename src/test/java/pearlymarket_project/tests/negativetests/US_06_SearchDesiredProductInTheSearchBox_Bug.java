@@ -100,6 +100,7 @@ public class US_06_SearchDesiredProductInTheSearchBox_Bug {
 
        }
 
+        Driver.closeDriver();
 
 
 

@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2697613-e2f4-4b0f-a3bb-06be25b02a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_06_SearchDesiredProductInTheSearchBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSearchingProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSearchingProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_06_SearchDesiredProductInTheSearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_06_SearchDesiredProductInTheSearchBox_Bug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230609044409extent_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610025151extent_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610025413extent_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610030517extent_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044420image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044430image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044434image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044437image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044501image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230609044509image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610024719image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610025153image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610025416image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610030520image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040833image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040834image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040835image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040836image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040837image.png" beforeDir="false" />
-    </list>
+    <list default="true" id="f2697613-e2f4-4b0f-a3bb-06be25b02a06" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
