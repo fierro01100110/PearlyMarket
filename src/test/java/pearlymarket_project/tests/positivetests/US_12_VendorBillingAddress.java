@@ -1,4 +1,4 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.positivetests;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.WebElement;
