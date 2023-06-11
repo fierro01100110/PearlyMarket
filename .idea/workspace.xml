@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9107e32e-71c6-4bdc-8003-0c2e47a80648" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610092512extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610094511extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610095835extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610092605image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610094604image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610095927image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230609044409extent_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610025151extent_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610025413extent_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610092512extent_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610094511extent_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040833image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040834image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040835image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040836image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610040837image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
