@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="4e6235c9-ccee-40c3-87ec-2463951d566e" name="Changes" comment="">
+
+    <list default="true" id="4e6235c9-ccee-40c3-87ec-2463951d566e" name="Changes" comment=""/>
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-=======
-    <list default="true" id="d8e5658d-b155-493b-aa52-785f5f12f9f6" name="Changes" comment="">
+
+    <list default="true" id="d8e5658d-b155-493b-aa52-785f5f12f9f6" name="Changes" comment=""/>
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_11_SignInAsVendorTest.java" beforeDir="false" />
@@ -36,7 +36,7 @@
       <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103321image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103344image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103345image.png" beforeDir="false" />
->>>>>>> main
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +89,8 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_11_SignInAsVendorTest">
-    <configuration name="US_11_SignInAsVendorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US_11_SignInAsVendorTest"/>
+    <configuration name="US_11_SignInAsVendorTest" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true"/>
     <configuration name="US_12_VendorBillingAddress.addingBillingAddress_TestCase003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -210,7 +210,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
+
       <changelist id="4e6235c9-ccee-40c3-87ec-2463951d566e" name="Changes" comment="" />
 =======
       <changelist id="fecd4ed3-cd1d-453c-9094-e93e6a01c809" name="Changes" comment="" />
