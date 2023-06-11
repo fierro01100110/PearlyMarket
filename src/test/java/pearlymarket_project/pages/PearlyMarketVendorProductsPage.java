@@ -110,6 +110,15 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "//input[@id='attributes_is_active_2']")
     public WebElement sizeBox;
 
+
+    //Attributes==>Size Whole Box
+    @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_size ui-sortable-handle']")
+    public WebElement sizeWholeBox;
+
+    //Attributes==>Color Whole Box
+    @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_color ui-sortable-handle']")
+    public WebElement colorWholeBox;
+
     //Attributes==>Size box==>Select all
     @FindBy(xpath = "(//button[text()='Select all'])[2]")
     public WebElement selectAllSize;
@@ -135,4 +144,57 @@ public class PearlyMarketVendorProductsPage {
     //ADD Attributes ==> Value
     @FindBy(xpath = "//textarea[@id='attributes_value_3']")
     public WebElement addValue;
+
+    //simple product
+    @FindBy(xpath = "//select[@id='product_type']")
+    public WebElement simpleProduct;
+
+    //virtualBox
+    @FindBy(xpath = "//input[@id='is_virtual']")
+    public WebElement virtualBox;
+
+    //downloadableBox
+    @FindBy(xpath = "//input[@id='is_downloadable']")
+    public WebElement downloadableBox;
+
+    //Product Title
+    @FindBy(xpath = "//*[@id='pro_title']")
+    public WebElement productTitle;
+
+    //Price
+    @FindBy(xpath = "(//*[text()='Sale Price ($)'])[1]")
+    public WebElement price;
+
+    //Sale Price
+    @FindBy(xpath = "//*[@id='sale_price']")
+    public WebElement salePrice;
+
+    //Selectable Categories
+    @FindBy(xpath = "//input[@value='229']" )
+    public WebElement selectableCategories;
+
+    //Selectable Categories
+    @FindBy(xpath = "//input[@data-super_parent='505']")
+    public WebElement selectableCategories2;
+
+    //add new category
+    @FindBy(xpath = "//p[text()='+Add new category']")
+    public WebElement addNewCategory;
+
+    //category Name
+    @FindBy(xpath = "//input[@id='wcfm_new_cat']")
+    public WebElement categoryName;
+
+    //parent category
+    @FindBy(xpath = "//select[@name='wcfm_new_parent_cat']")
+    public WebElement parentCategory;
+
+    //added product
+    @FindBy(xpath = "//*[.='hair comb']")
+    public WebElement addedProduct;
+
+    //add new button
+    @FindBy(xpath = "(//a[contains(text(),'Add New')])[2]")
+    public WebElement addNew;
+
 }
