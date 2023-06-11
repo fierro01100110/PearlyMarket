@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103344image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103345image.png" beforeDir="false" />
     </list>
+    <list default="true" id="98a85bec-a1cd-4e3c-8c66-17f22f6950f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +48,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;Merging hakan&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003">
+  <component name="RunManager" selected="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003"/>
+    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true"/>
+  <component name="RunManager" selected="TestNG.US_05_UserEditAccountDetailsNegative">
+    <configuration name="US_05_UserEditAccountDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.positivetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_11_SignInAsVendorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest (1)" type="TestNG" temporary="true" nameIsGenerated="true"/>
+    <configuration name="US_05_UserEditAccountDetailsNegative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_05_UserEditAccountDetailsNegative" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_06_SearchDesiredProductInTheSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_09_VendorEmailExistBug1.vendorEmailExistsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_09_VendorEmailExistBug1" />
+      <option name="METHOD_NAME" value="vendorEmailExistsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -65,7 +145,24 @@
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_06_SearchDesiredProductInTheSearchBox" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,24 +176,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_05_UserEditAccountDetailsNegative" />
-      <option name="METHOD_NAME" value="testCase01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddress_TestCase003" type="TestNG" temporary="true" nameIsGenerated="true"/>
     <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -133,17 +213,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_12_VendorBillingAddress.editingBillingAddressTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
-      <option name="METHOD_NAME" value="editingBillingAddressTest2" />
+    <configuration name="VendorEmailExısts" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -173,9 +243,23 @@
       <option name="presentableId" value="Default" />
       <updated>1686328215614</updated>
     </task>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_03_AddingBillingAddress.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
