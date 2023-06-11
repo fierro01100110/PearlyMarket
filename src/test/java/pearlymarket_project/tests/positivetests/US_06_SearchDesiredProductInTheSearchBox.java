@@ -1,29 +1,23 @@
-package pearlymarket_project.tests.negativetests;
+package pearlymarket_project.tests.positivetests;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketSearchingProductsPage;
 import pearlymarket_project.pages.PearlyMarketSignInPage;
-
 import pearlymarket_project.utilities.*;
 
-
 import java.io.IOException;
-import java.util.List;
 
 import static org.testng.AssertJUnit.assertTrue;
 
 public class US_06_SearchDesiredProductInTheSearchBox {
 
-
     @BeforeMethod
     public void signIn() throws InterruptedException {
 
+        ExtentReportUtils.info("The test starts..");
         PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
         PearlyMarketSignInPage pearlyMarketSignInPage = new PearlyMarketSignInPage();
 
@@ -45,61 +39,7 @@ public class US_06_SearchDesiredProductInTheSearchBox {
         //Click on sign-in
         ReusableMethod.clickWithTimeOut(pearlyMarketSignInPage.signIn, 3);
 
-
-
-
-
-
-
-    }
-
-    @Test
-    public void test1(){
-
-        PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
-        PearlyMarketSearchingProductsPage pearlyMarketSearchingProductsPage = new PearlyMarketSearchingProductsPage();
-
-        //Type a product name on the search box
-        ReusableMethod.sendKeysWithTimeout( pearlyMarketHomePage.searchBox, "table"+Keys.ENTER, 4);
-
-
-
-        //Verify :User should be able to see related items in the dropdown of search box.
-        List<WebElement> items = Driver.getDriver().findElements(By.xpath("//h3[@class='woocommerce-loop-product__title']"));
-
-        int idx = 0;
-
-       for(WebElement w : items){
-
-           List<WebElement> products = Driver.getDriver().findElements(By.xpath("//h3[@class='woocommerce-loop-product__title']"));
-
-
-           if(w.getText().contains("Table")){
-               System.out.println("Table related item");
-
-               SoftAssert softAssertion = new SoftAssert();
-               softAssertion.assertTrue(w.getText().contains("Table"));
-               softAssertion.assertAll();
-               idx++;
-
-
-           }else{
-               System.out.println("NOT Table related item");
-
-
-               SoftAssert softAssertion = new SoftAssert();
-               softAssertion.assertTrue(w.getText().contains("Table"));
-               softAssertion.assertAll();
-               idx++;
-
-           }
-
-
-
-
-       }
-
-
+        ExtentReportUtils.pass("Signing-in");
 
 
 
@@ -108,28 +48,32 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
 
     @Test
-    public void test2() throws IOException {
+    public void test1() throws IOException {
         PearlyMarketSearchingProductsPage pearlyMarketSearchingProductsPage = new PearlyMarketSearchingProductsPage();
         PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
 
 
+        ExtentReportUtils.pass("User searches for a product");
 
         //Type a product name on the search box
-        ReusableMethod.sendKeysWithTimeout( pearlyMarketHomePage.searchBox, "table"+Keys.ENTER, 4);
+        ReusableMethod.sendKeysWithTimeout( pearlyMarketHomePage.searchBox, "table"+ Keys.ENTER, 4);
 
 
 
         //User should select desired product
         ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.selectProductToAddToCart, 3);
 
+        ExtentReportUtils.pass("User adds the desired product into the cart");
+
         //User should be able to add the product to the cart
         ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.addToCartButton, 3);
 
         //Verify that the numbers on the cart icon increased/item added successfully
 
+        ExtentReportUtils.pass("User sees that the number on cart icon is increasing after adding");
         WaitUtils.waitFor(3);
 
-        int numOnCart = Integer.parseInt(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.numberOnCartIcon,3).getText());
+        int numOnCart = Integer.parseInt(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.numberOnCartIcon,4).getText());
 
         System.out.println("numOnCart = " + numOnCart);
         assertTrue(numOnCart>0);
@@ -147,19 +91,18 @@ public class US_06_SearchDesiredProductInTheSearchBox {
         //User clicks on "View Cart" button
         JSUtils.clickWithTimeoutByJS(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.checkOutButton, 2));
 
+        ExtentReportUtils.pass("User completes the order");
         //User clicks on Place Order button to complete the purchase
         ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.placeOrder, 3);
 
         WaitUtils.waitFor(4);
 
-        ExtentReportUtils.fail("Success purchase message doesn't appear. Purchase fails");
+        //Verify that the purchase is successful.
+        ReusableMethod.verifyElementDisplayed(pearlyMarketSearchingProductsPage.orderReceivedMessage);
+
+        ExtentReportUtils.pass("Purchase is success.");
         ExtentReportUtils.flush();
-        MediaUtils.takeScreenshotOfTheEntirePageAsString();
 
-
-
-
-        }
 
 
 
@@ -167,4 +110,4 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
 
 
-
+}
