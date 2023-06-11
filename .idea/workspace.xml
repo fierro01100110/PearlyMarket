@@ -4,45 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a85bec-a1cd-4e3c-8c66-17f22f6950f6" name="Changes" comment="">
+
+    <list default="true" id="98a85bec-a1cd-4e3c-8c66-17f22f6950f6" name="Changes" comment=""/>
       <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610094654extent_reports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/AddingBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_03_AddingBillingAddress.java" afterDir="false" />
+
+    <list default="true" id="8ee9297c-b3b0-4cf0-995e-6cad06227fac" name="Changes" comment=""/>
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610090718extent_reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610090738image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610090755image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050154image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050155image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050156image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050157image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050158image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051539image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051540image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051541image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051542image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060532image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060533image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060534image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060535image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060536image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060537image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060538image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090750image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090751image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090752image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090753image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090754image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090755image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+    <list default="true" id="2feb47ca-a2ad-421f-b278-567ab9cf69a3" name="Changes" comment=""/>
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_12_VendorBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_12_VendorBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065902image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065910image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065913image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065916image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230607065937image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103308image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103316image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103318image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103321image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103344image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230608103345image.png" beforeDir="false" />
+    <list default="true" id="c0b21db9-86d5-409c-ab52-036280a04ea1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610090718extent_reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610090738image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610090755image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050154image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050155image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050156image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050157image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050158image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051539image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051540image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051541image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051542image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060532image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060533image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060534image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060535image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060536image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060537image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060538image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090750image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090751image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090752image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090753image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090754image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090755image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_12_VendorBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_12_VendorBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_11_SignInAsVendorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_11_SignInAsVendorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2QXoWYNcX2nMooMrdoNu15YBcZt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "Merging hakan"
+  }
+}]]></component>
+}
+<component>
   &quot;keyToString&quot;: {
     &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -57,8 +124,13 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_03_AddingBillingAddress">
-    <configuration name="US_03_AddingBillingAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+
+  <component name="RunManager" selected="TestNG.US_03_AddingBillingAddress"/>
+    <configuration name="US_03_AddingBillingAddress" type="TestNG" temporary="true" nameIsGenerated="true"/>
+
+  <component name="RunManager" selected="TestNG.US_05_UserEditAccountDetailsNegative">
+    <configuration name="US_05_UserEditAccountDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +138,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
       <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
       <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_03_AddingBillingAddress" />
+
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.positivetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_11_SignInAsVendorTest" />
+
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,7 +152,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_06_SearchDesiredProductInTheSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="US_06_SearchDesiredProductInTheSearchBox" type="TestNG" temporary="true" nameIsGenerated="true"/>
+
+    <configuration name="US_05_UserEditAccountDetailsNegative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.negativetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.negativetests.US_05_UserEditAccountDetailsNegative" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_11_SignInAsVendorTest.signInAsVendor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +242,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendorEmailExısts" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="VendorEmailExısts" type="TestNG" temporary="true" nameIsGenerated="true"/>
+
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
+      <option name="METHOD_NAME" value="addingBillingAddressTest2" />
+
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+    <recent_temporary/>
+      <list/>
+        <item itemvalue="TestNG.US_03_AddingBillingAddress" />
+        <item itemvalue="TestNG.US_09_VendorEmailExistBug1.vendorEmailExistsTest" />
+        <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox" />
+        <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest" />
+        <item itemvalue="TestNG.VendorEmailExısts" />
+
+    <configuration name="US_12_VendorBillingAddress.addingBillingAddress_TestCase003" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
+      <option name="METHOD_NAME" value="addingBillingAddress_TestCase003" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,15 +293,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_03_AddingBillingAddress" />
-        <item itemvalue="TestNG.US_09_VendorEmailExistBug1.vendorEmailExistsTest" />
-        <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox" />
-        <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest" />
-        <item itemvalue="TestNG.VendorEmailExısts" />
+        <item itemvalue="TestNG.US_05_UserEditAccountDetailsNegative" />
+        <item itemvalue="TestNG.US_05_UserEditAccountDetails" />
+        <item itemvalue="TestNG.US_11_SignInAsVendorTest.signInAsVendor" />
+        <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003" />
+        <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest2" />
+        <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest (1)" />
+
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="98a85bec-a1cd-4e3c-8c66-17f22f6950f6" name="Changes" comment="" />
@@ -182,4 +340,9 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+
+  <component name="TaskManager">
+    <servers />
+  </component>
+
 </project>
