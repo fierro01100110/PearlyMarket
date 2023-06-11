@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9a4931-520e-415b-9b5d-07a0d1a5b975" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610072227extent_reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610075302extent_reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610081051extent_reports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_13_VendorShippingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_13_VendorShippingAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PearlyMarketTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
-      <option name="METHOD_NAME" value="addingBillingAddressTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="US_12_VendorBillingAddress.addingBillingAddressTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -139,21 +125,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_13_VendorShippingAddress.vendorShipping" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pearlymarket_project.tests.positivetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pearlymarket_project.tests.positivetests" />
+      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.positivetests.US_13_VendorShippingAddress" />
+      <option name="METHOD_NAME" value="vendorShipping" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.US_13_VendorShippingAddress" />
+        <item itemvalue="TestNG.US_13_VendorShippingAddress.vendorShipping" />
         <item itemvalue="TestNG.US_11_SignInAsVendorTest.signInAsVendor" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddress_TestCase003" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest2" />
-        <item itemvalue="TestNG.US_12_VendorBillingAddress.addingBillingAddressTest (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e6235c9-ccee-40c3-87ec-2463951d566e" name="Changes" comment="" />
-      <changelist id="fecd4ed3-cd1d-453c-9094-e93e6a01c809" name="Changes" comment="" />
+      <changelist id="db9a4931-520e-415b-9b5d-07a0d1a5b975" name="Changes" comment="" />
       <created>1685509324087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
