@@ -4,138 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2697613-e2f4-4b0f-a3bb-06be25b02a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AddressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/DashboardAddressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketAddressesPageB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketComparisonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketEditingBillingAddressPageB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePageB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPageB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorMyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorShippingAdressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_007_ComparisonBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_07_ComparisonBoxNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_16_AddSimpleProductAsAVendor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_01_Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_03_AddingBillingAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_10_PasswordChartVisibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_13_VendorShippingAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610020330extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610032200extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610032658extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610035332extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610072703extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610073157extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610075243extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610075626extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610075915extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610080430extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610081051extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610081134extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610083147extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610083324extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610083614extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610084634extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610094654extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610095835extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610100634extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20230610100908extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610014459image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610014503image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610020435image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610020442image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610020517image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610020522image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610021235image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610021238image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610021948image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610021952image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610022530image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610022534image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610023755image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610023801image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610024322image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610024325image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610024852image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610024855image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610025231image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610025234image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610025830image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610025834image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610031358image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610031401image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610032229image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610032232image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610032658image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610032703image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610052343image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610054031image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610054034image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610054228image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610054233image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610055712image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610061228image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610061234image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610061238image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610090738image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610092605image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610094604image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610095927image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050154image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050155image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050156image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050157image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610050158image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051539image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060532image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060533image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060534image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060535image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060536image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060537image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610060538image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090750image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090751image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090752image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090753image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090754image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610090755image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b5abf03c-b39a-4b79-b23c-b46f78272b19" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AccountDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AccountDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AddressesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AddressesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/DashboardAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/DashboardAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketAddressesPageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketAddressesPageB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketComparisonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketComparisonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketEditingBillingAddressPageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketEditingBillingAddressPageB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePageB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPageB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyStorePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketRegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSearchingProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSearchingProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketShippingAddressPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorMyAccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_04_ShippingAddressIsAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_12_VendorBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_12_VendorBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorMyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorShippingAdressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorShippingAdressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_007_ComparisonBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_007_ComparisonBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTest_01_BUG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTest_01_BUG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_RegisterWithNewCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_RegisterWithNewCredentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_05_UserEditAccountDetailsNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_05_UserEditAccountDetailsNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_06_SearchDesiredProductInTheSearchBox_Bug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_06_SearchDesiredProductInTheSearchBox_Bug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_07_ComparisonBoxNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_07_ComparisonBoxNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistBug1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistBug1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_15_Vendor2AddItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_15_Vendor2AddItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_16_AddSimpleProductAsAVendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_16_AddSimpleProductAsAVendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_01_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_01_Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_02_RegisterWithAlreadyExistingCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_02_RegisterWithAlreadyExistingCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_03_AddingBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_03_AddingBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_06_SearchDesiredProductInTheSearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_06_SearchDesiredProductInTheSearchBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_09_VendorEmailExıstsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_09_VendorEmailExıstsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_10_PasswordChartVisibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_10_PasswordChartVisibility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_11_SignInAsVendorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_11_SignInAsVendorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_12_VendorBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_12_VendorBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_13_VendorShippingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_13_VendorShippingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_14_OptionsAreVsisible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_14_OptionsAreVsisible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ListenersUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ListenersUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/LoggerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/LoggerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ReusableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ReusableMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230609044409extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230609044409extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610025151extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610025151extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610025413extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610025413extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610072227extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610072227extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610075302extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610075302extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610084256extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610084256extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610084848extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610084848extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610090230extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610090230extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/20230610090718extent_reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/20230610090718extent_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610090755image.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610090755image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610051540image.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051540image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610051541image.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051541image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230610051542image.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Screenshots/20230610051542image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/WaitUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +100,48 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pearlymarket_project.pages" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.US_14_OptionsAreVsisible">
+    <configuration name="US_01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.java.pearlymarket_project.tests.positivetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.java.pearlymarket_project.tests.positivetests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.java.pearlymarket_project.tests.positivetests.US_01_Register" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_14_OptionsAreVsisible" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PearlyMarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.java.pearlymarket_project.tests.positivetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.java.pearlymarket_project.tests.positivetests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.java.pearlymarket_project.tests.positivetests.US_14_OptionsAreVsisible" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.US_14_OptionsAreVsisible" />
+        <item itemvalue="TestNG.US_01_Register" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

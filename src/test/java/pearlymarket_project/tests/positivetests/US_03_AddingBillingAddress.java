@@ -1,12 +1,12 @@
-package pearlymarket_project.tests.positivetests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketAddressesPageB;
-import pearlymarket_project.pages.PearlyMarketEditingBillingAddressPageB;
-import pearlymarket_project.pages.PearlyMarketHomePageB;
-import pearlymarket_project.pages.PearlyMarketMyAccountPageB;
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.pages.PearlyMarketAddressesPageB;
+import src.test.java.pearlymarket_project.pages.PearlyMarketEditingBillingAddressPageB;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePageB;
+import src.test.java.pearlymarket_project.pages.PearlyMarketMyAccountPageB;
+import src.test.java.pearlymarket_project.utilities.*;
 
 import java.io.IOException;
 

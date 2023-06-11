@@ -1,10 +1,10 @@
-package pearlymarket_project.tests.negativetests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.*;
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.pages.*;
+import src.test.java.pearlymarket_project.utilities.*;
 
 import java.util.ResourceBundle;
 

@@ -1,5 +1,5 @@
-package pearlymarket_project.tests.negativetests;
-import pearlymarket_project.utilities.JSUtils;
+package src.test.java.pearlymarket_project.tests.negativetests;
+import src.test.java.pearlymarket_project.utilities.JSUtils;
 
 
 import org.openqa.selenium.WebElement;
@@ -8,18 +8,19 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketMyAccountPage;
-import pearlymarket_project.pages.PearlyMarketSignInPage;
-import pearlymarket_project.pages.PearlyMarketVendorProductsPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-import pearlymarket_project.utilities.WaitUtils;
-
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketMyAccountPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketSignInPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketVendorProductsPage;
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.ReusableMethod;
+import src.test.java.pearlymarket_project.utilities.WaitUtils;
 import java.util.List;
 
-import static org.testng.AssertJUnit.assertTrue;
+
+
+
 
 public class US_15_Vendor2AddItems {
 

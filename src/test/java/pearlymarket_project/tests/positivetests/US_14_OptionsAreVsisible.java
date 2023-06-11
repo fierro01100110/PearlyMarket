@@ -1,4 +1,4 @@
-package pearlymarket_project.tests.positivetests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -6,14 +6,14 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketMyAccountPage;
-import pearlymarket_project.pages.PearlyMarketMyStorePage;
-import pearlymarket_project.pages.PearlyMarketSignInPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-import pearlymarket_project.utilities.WaitUtils;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketMyAccountPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketMyStorePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketSignInPage;
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.ReusableMethod;
+import src.test.java.pearlymarket_project.utilities.WaitUtils;
 
 import java.util.ArrayList;
 import java.util.List;

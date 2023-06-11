@@ -1,22 +1,22 @@
-package pearlymarket_project.tests.positivetests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.*;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ExtentReportUtils;
-import pearlymarket_project.utilities.WaitUtils;
+import src.test.java.pearlymarket_project.pages.*;
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.ExtentReportUtils;
+import src.test.java.pearlymarket_project.utilities.WaitUtils;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static pearlymarket_project.utilities.WaitUtils.waitForClickablility;
+import static src.test.java.pearlymarket_project.utilities.WaitUtils.waitForClickablility;
 
 public class US_04_ShippingAddressIsAdded {
 

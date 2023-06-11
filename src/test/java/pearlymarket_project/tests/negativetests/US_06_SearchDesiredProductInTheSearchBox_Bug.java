@@ -1,4 +1,4 @@
-package pearlymarket_project.tests.negativetests;
+package src.test.java.pearlymarket_project.tests.negativetests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -6,11 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketSearchingProductsPage;
-import pearlymarket_project.pages.PearlyMarketSignInPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketSearchingProductsPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketSignInPage;
 
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.utilities.*;
 
 
 import java.io.IOException;

@@ -1,9 +1,9 @@
-package pearlymarket_project.utilities;
+package src.test.java.pearlymarket_project.utilities;
 
 import org.testng.*;
 import org.testng.annotations.ITestAnnotation;
 import org.testng.annotations.Listeners;
-import pearlymarket_project.utilities.MediaUtils;
+import src.test.java.pearlymarket_project.utilities.MediaUtils;
 
 import java.io.IOException;
 import java.lang.reflect.Constructor;

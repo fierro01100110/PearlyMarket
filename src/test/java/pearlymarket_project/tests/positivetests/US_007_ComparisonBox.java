@@ -1,13 +1,13 @@
-package pearlymarket_project.tests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 
 import org.junit.Before;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketComparisonPage;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketSignInPage;
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.pages.PearlyMarketComparisonPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketSignInPage;
+import src.test.java.pearlymarket_project.utilities.*;
 
 public class US_007_ComparisonBox {
 
