@@ -85,4 +85,12 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
     public WebElement addNewProducts;
 
+
+    //Orders
+    @FindBy(xpath = "//a[text()='Orders']")
+    public WebElement orders;
+
+    //Browse Products
+    @FindBy(xpath = "//a[text()='Browse products']")
+    public WebElement browseProducts;
 }

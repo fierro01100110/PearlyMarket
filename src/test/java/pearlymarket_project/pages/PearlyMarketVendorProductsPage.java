@@ -135,4 +135,7 @@ public class PearlyMarketVendorProductsPage {
     //ADD Attributes ==> Value
     @FindBy(xpath = "//textarea[@id='attributes_value_3']")
     public WebElement addValue;
+
+
+
 }
