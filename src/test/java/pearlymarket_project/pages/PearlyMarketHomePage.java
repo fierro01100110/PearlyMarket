@@ -76,6 +76,10 @@ public class PearlyMarketHomePage {
     public WebElement searchBox;
 
 
+    //My Account home page
+    @FindBy(xpath = "//a[text()='My Account']")
+    public WebElement myyAccountHomePage;
+
 
 
 }

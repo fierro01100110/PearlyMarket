@@ -226,15 +226,6 @@ public class US_15_Vendor2AddItems {
 
 
 
-        //ALERT
-//        //User Adds New Color
-//        pearlyMarketVendorProductsPage.addNewColor.click();
-//        WaitUtils.waitFor(2);
-//
-//
-//        String name = "Hello World";
-//        ReusableMethod.acceptAlert();
-
 
 
 

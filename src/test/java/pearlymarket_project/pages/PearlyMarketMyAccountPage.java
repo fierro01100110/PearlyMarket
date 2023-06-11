@@ -82,7 +82,7 @@ public class PearlyMarketMyAccountPage {
     public WebElement products;
 
     //Add New when you Hover Over to Products
-    @FindBy(xpath = "//span[text()='Add New']")
+    @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
     public WebElement addNewProducts;
 
 
@@ -93,4 +93,9 @@ public class PearlyMarketMyAccountPage {
     //Browse Products
     @FindBy(xpath = "//a[text()='Browse products']")
     public WebElement browseProducts;
+
+
+    //Place Order
+    @FindBy(xpath = "//button[text()='Place order']")
+    public WebElement placeOrder;
 }

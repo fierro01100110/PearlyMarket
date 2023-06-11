@@ -1,5 +1,6 @@
-package src.test.java.pearlymarket_project.tests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
@@ -19,8 +20,10 @@ public class US_17_ShopAsAVendorTest {
         ShopPage shopPage = new ShopPage();
         BillingDetailsPage billingDetailsPage = new BillingDetailsPage();
 
+        ExtentReportUtils.info("Starting test ...");
         //User Navigates to URL
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
+
 
         //User clicks to Sign In
         pearlyMarketHomePage.signInHome.click();
@@ -46,7 +49,7 @@ public class US_17_ShopAsAVendorTest {
 
 
         //User clicks to My Account
-        JSUtils.clickWithTimeoutByJS(pearlyMarketHomePage.myAccount);
+        JSUtils.clickWithTimeoutByJS(pearlyMarketHomePage.myyAccountHomePage);
 
 
         //User clicks to Orders
@@ -106,15 +109,27 @@ public class US_17_ShopAsAVendorTest {
             w.click();
         }
 
+        //User is adding a zipcode
+        ReusableMethod.sendKeysWithTimeout(billingDetailsPage.billingZipcode,"01010",4);
 
 
+        //User is able to see total amount
+        ReusableMethod.verifyElementDisplayed(billingDetailsPage.total);
 
 
+        //User clicks pay at the door
+        billingDetailsPage.payAtTheDoor.click();
+
+        WaitUtils.waitFor(2);
+
+        //User clicks place order
+        JSUtils.clickWithTimeoutByJS(billingDetailsPage.payAtTheDoor);
 
 
+        WaitUtils.waitFor(3);
 
-
-
+        //Verify
+        ReusableMethod.verifyElementDisplayed(billingDetailsPage.submitted);
 
 
 

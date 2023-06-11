@@ -48,4 +48,23 @@ public class BillingDetailsPage {
     //Province List
     @FindBy(xpath = "//ul[@id='select2-billing_state-results']")
     public List<WebElement> allProvince;
+
+
+    //Total
+    @FindBy(xpath = "//th[text()='Total']")
+    public WebElement total;
+
+
+    //Pay at the door
+    @FindBy(xpath = "//input[@id='payment_method_cod']")
+    public WebElement payAtTheDoor;
+
+
+    //Zip code
+    @FindBy(xpath = "//input[@id='billing_postcode']")
+    public WebElement billingZipcode;
+
+    //Submitted
+    @FindBy(xpath = "//*[text()='Thank you. Your order has been received.']")
+    public WebElement submitted;
 }
