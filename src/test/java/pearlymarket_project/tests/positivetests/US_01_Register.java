@@ -1,15 +1,16 @@
-package pearlymarket_project.tests;
+package pearlymarket_project.tests.positivetests;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketHomePage;
 import pearlymarket_project.pages.PearlyMarketRegisterPage;
 import pearlymarket_project.utilities.ConfigReader;
 import pearlymarket_project.utilities.Driver;
+import pearlymarket_project.utilities.ExtentReportUtils;
 import pearlymarket_project.utilities.ReusableMethod;
 
 
 public class US_01_Register {
 
-    /* User Story :  "Customer should sign up as a user on the website (Register)" */
+    /* User Story 01:  "Customer should sign up as a user on the website (Register)" */
 
     //Test Cases
         //User go to "https://pearlymarket.com/"
@@ -24,13 +25,12 @@ public class US_01_Register {
         //User should check "I agree to the privacy policy"
         //User clicks SIGN-UP button to register
 
-
-        PearlyMarketRegisterPage pearlyMarketRegisterPage = new PearlyMarketRegisterPage();
-        PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
-
         @Test
         public void US01RegisterTest() {
 
+            ExtentReportUtils.info("The test starts ...");
+            PearlyMarketRegisterPage pearlyMarketRegisterPage = new PearlyMarketRegisterPage();
+            PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
             // User go to "https://pearlymarket.com/"
             Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
 
@@ -63,7 +63,9 @@ public class US_01_Register {
 
             //User clicks SIGN-UP button to register
             pearlyMarketRegisterPage.signUpButton.click();
+            ExtentReportUtils.pass("Sign_Up successfully...");
 
+            ExtentReportUtils.flush();
             Driver.closeDriver();
         }
 }
