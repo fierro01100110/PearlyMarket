@@ -1,10 +1,10 @@
-package pearlymarket_project.tests.positivetests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketSignInPage;
-import pearlymarket_project.pages.PearlyMarketVendorMyAccountPage;
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketSignInPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketVendorMyAccountPage;
+import src.test.java.pearlymarket_project.utilities.*;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package pearlymarket_project.utilities;
+package src.test.java.pearlymarket_project.utilities;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -10,7 +10,7 @@ import java.util.Random;
 
 import static org.testng.AssertJUnit.*;
 import static org.testng.AssertJUnit.assertFalse;
-import static pearlymarket_project.utilities.WaitUtils.waitForVisibility;
+import static src.test.java.pearlymarket_project.utilities.WaitUtils.waitForVisibility;
 
 
 

@@ -1,10 +1,11 @@
-package pearlymarket_project.tests;
+package src.test.java.pearlymarket_project.tests;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.*;
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.pages.*;
+import src.test.java.pearlymarket_project.utilities.*;
+
 
 public class US_17_ShopAsAVendorTest {
 
@@ -45,7 +46,7 @@ public class US_17_ShopAsAVendorTest {
 
 
         //User clicks to My Account
-        JSUtils.clickWithTimeoutByJS(pearlyMarketHomePage.myAccountt);
+        JSUtils.clickWithTimeoutByJS(pearlyMarketHomePage.myAccount);
 
 
         //User clicks to Orders
