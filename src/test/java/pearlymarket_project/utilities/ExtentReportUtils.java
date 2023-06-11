@@ -55,11 +55,13 @@ public class ExtentReportUtils {
 
     //ExtentReportUtils.pass("Message") --> Logs the message as passed on report
     public static void pass(String message){
+
         extentTest.pass(message);
     }
 
     //ExtentReportUtils.info("Message") --> Logs the message as information on report
     public static void info(String message){
+
         extentTest.info(message);
     }
 
@@ -76,6 +78,7 @@ public class ExtentReportUtils {
     //To generate to extent report we must use "extentReports.flush();"
     //ExtentReportUtils.flush();  --> Generates the report
     public static void flush(){
+
         extentReports.flush();
     }
 }
