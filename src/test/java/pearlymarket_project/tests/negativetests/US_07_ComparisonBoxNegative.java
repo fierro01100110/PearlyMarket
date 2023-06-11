@@ -132,7 +132,7 @@ public class US_07_ComparisonBoxNegative {
 
       softAssert.assertAll();
 
-      //User shuld be able topdaaadd de
+
 
 
 

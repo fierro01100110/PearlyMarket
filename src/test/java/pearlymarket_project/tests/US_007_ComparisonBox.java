@@ -1,6 +1,8 @@
 package pearlymarket_project.tests;
 
+import org.junit.Before;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.PearlyMarketComparisonPage;
 import pearlymarket_project.pages.PearlyMarketHomePage;
@@ -8,6 +10,7 @@ import pearlymarket_project.pages.PearlyMarketSignInPage;
 import pearlymarket_project.utilities.*;
 
 public class US_007_ComparisonBox {
+
 
     PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
     PearlyMarketComparisonPage pearlyMarketComparisonPage = new PearlyMarketComparisonPage();
@@ -18,6 +21,7 @@ public class US_007_ComparisonBox {
 
     @Test
     public void TC_001(){
+        ExtentReportUtils.info("The test starts");
 
 
         //Go to the home page
@@ -88,6 +92,9 @@ public class US_007_ComparisonBox {
         pearlyMarketComparisonPage.comparisonButton4.click();
         WaitUtils.waitFor(2);
 
+        ExtentReportUtils.pass("Four products add into comparison bar");
+        ExtentReportUtils.flush();
+
 
     }
 
@@ -95,6 +102,8 @@ public class US_007_ComparisonBox {
 
     @Test
     public void TC_002(){
+
+        ExtentReportUtils.info("The test starts");
 //        User clicks the x(remove) button to remove one of the selected product from comparison box
         ReusableMethod.clickWithTimeOut(pearlyMarketComparisonPage.removeProduct1, 3);
 
@@ -112,6 +121,9 @@ public class US_007_ComparisonBox {
         WaitUtils.waitFor(3);
         pearlyMarketComparisonPage.comparisonbutton5.click();
 
+        ExtentReportUtils.pass("First product removed and another product added");
+        ExtentReportUtils.flush();
+
 
 
     }
@@ -120,6 +132,7 @@ public class US_007_ComparisonBox {
 
     @Test
     public void TC_003() throws InterruptedException {
+        ExtentReportUtils.info("The test starts");
 
         //User clicks "Start Compare" button
 
@@ -135,7 +148,8 @@ public class US_007_ComparisonBox {
         ReusableMethod.clickWithTimeOut(pearlyMarketComparisonPage.cleanAllButton1, 3);
 
 
-
+        ExtentReportUtils.pass("All products compared and then deleted");
+        ExtentReportUtils.flush();
 
     }
 
