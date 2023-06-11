@@ -110,6 +110,15 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "//input[@id='attributes_is_active_2']")
     public WebElement sizeBox;
 
+
+    //Attributes==>Size Whole Box
+    @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_size ui-sortable-handle']")
+    public WebElement sizeWholeBox;
+
+    //Attributes==>Color Whole Box
+    @FindBy(xpath = "//div[@class='multi_input_block wcfm_attributes_blocks wcfm_defined_attributes wcfm_attributes_block_pa_color ui-sortable-handle']")
+    public WebElement colorWholeBox;
+
     //Attributes==>Size box==>Select all
     @FindBy(xpath = "(//button[text()='Select all'])[2]")
     public WebElement selectAllSize;
