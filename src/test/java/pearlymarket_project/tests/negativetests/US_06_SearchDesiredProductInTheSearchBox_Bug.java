@@ -18,18 +18,20 @@ import java.util.List;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class US_06_SearchDesiredProductInTheSearchBox {
+public class US_06_SearchDesiredProductInTheSearchBox_Bug {
 
 
-    @BeforeMethod
-    public void signIn() throws InterruptedException {
+    @Test
+    public void signInAndSearchProduct() throws InterruptedException {
 
+        ExtentReportUtils.info("The test starts..");
         PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
         PearlyMarketSignInPage pearlyMarketSignInPage = new PearlyMarketSignInPage();
 
         //Go to the url
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
 
+        ExtentReportUtils.pass("Signing-in");
         //Click on sign in
         ReusableMethod.clickWithTimeOut(pearlyMarketHomePage.signInHome, 3);
 
@@ -47,16 +49,9 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
 
 
+        ExtentReportUtils.pass("User searches a product");
 
 
-
-
-    }
-
-    @Test
-    public void test1(){
-
-        PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
         PearlyMarketSearchingProductsPage pearlyMarketSearchingProductsPage = new PearlyMarketSearchingProductsPage();
 
         //Type a product name on the search box
@@ -69,7 +64,13 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
         int idx = 0;
 
-       for(WebElement w : items){
+        ExtentReportUtils.fail("User sees unrelated products");
+
+        ExtentReportUtils.flush();
+
+
+
+        for(WebElement w : items){
 
            List<WebElement> products = Driver.getDriver().findElements(By.xpath("//h3[@class='woocommerce-loop-product__title']"));
 
@@ -99,67 +100,13 @@ public class US_06_SearchDesiredProductInTheSearchBox {
 
        }
 
-
+        Driver.closeDriver();
 
 
 
     }
 
 
-
-    @Test
-    public void test2() throws IOException {
-        PearlyMarketSearchingProductsPage pearlyMarketSearchingProductsPage = new PearlyMarketSearchingProductsPage();
-        PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
-
-
-
-        //Type a product name on the search box
-        ReusableMethod.sendKeysWithTimeout( pearlyMarketHomePage.searchBox, "table"+Keys.ENTER, 4);
-
-
-
-        //User should select desired product
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.selectProductToAddToCart, 3);
-
-        //User should be able to add the product to the cart
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.addToCartButton, 3);
-
-        //Verify that the numbers on the cart icon increased/item added successfully
-
-        WaitUtils.waitFor(3);
-
-        int numOnCart = Integer.parseInt(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.numberOnCartIcon,3).getText());
-
-        System.out.println("numOnCart = " + numOnCart);
-        assertTrue(numOnCart>0);
-
-
-        //User should be able to increase the amount of the product
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.plusButton, 2);
-
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.addToCartButton, 3);
-
-
-        //User clicks on cart icon
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.numberOnCartIcon, 2);
-
-        //User clicks on "View Cart" button
-        JSUtils.clickWithTimeoutByJS(WaitUtils.waitForVisibility(pearlyMarketSearchingProductsPage.checkOutButton, 2));
-
-        //User clicks on Place Order button to complete the purchase
-        ReusableMethod.clickWithTimeOut(pearlyMarketSearchingProductsPage.placeOrder, 3);
-
-        WaitUtils.waitFor(4);
-
-        ExtentReportUtils.fail("Success purchase message doesn't appear. Purchase fails");
-        ExtentReportUtils.flush();
-        MediaUtils.takeScreenshotOfTheEntirePageAsString();
-
-
-
-
-        }
 
 
 
