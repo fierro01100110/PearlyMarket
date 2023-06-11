@@ -4,29 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67547e76-1f35-4750-b0f7-07e1dad6f652" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091523image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091531image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091535image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091537image.png" afterDir="false" />
+    <list default="true" id="67547e76-1f35-4750-b0f7-07e1dad6f652" name="Changes" comment="" />
+    <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091523image.png" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091531image.png" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091535image.png" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20230610091537image.png" afterDir="false" />
+    <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/BillingDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/BillingDetailsPage.java" afterDir="false" />
+    <list default="true" id="b5abf03c-b39a-4b79-b23c-b46f78272b19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/BillingDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/BillingDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AccountDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AccountDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AddressesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/AddressesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/DashboardAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/DashboardAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketAddressesPageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketAddressesPageB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketComparisonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketComparisonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketEditingBillingAddressPageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketEditingBillingAddressPageB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketHomePageB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_17_ShopAsAVendorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_17_ShopAsAVendorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_15_Vendor2AddItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_15_Vendor2AddItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPageB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyAccountPageB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketMyStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketRegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSearchingProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSearchingProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketShippingAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketSignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorMyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/PearlyMarketVendorRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorMyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorMyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorShippingAdressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/pages/VendorShippingAdressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/US_007_ComparisonBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_007_ComparisonBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTest_01_BUG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_NegativeTest_01_BUG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_RegisterWithNewCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_02_RegisterWithNewCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_05_UserEditAccountDetailsNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_05_UserEditAccountDetailsNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_06_SearchDesiredProductInTheSearchBox_Bug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_06_SearchDesiredProductInTheSearchBox_Bug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_07_ComparisonBoxNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_07_ComparisonBoxNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistBug1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistBug1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_09_VendorEmailExistsBug3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_15_Vendor2AddItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_15_Vendor2AddItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/negativetests/US_16_AddSimpleProductAsAVendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_16_AddSimpleProductAsAVendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_01_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_01_Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_02_RegisterWithAlreadyExistingCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_02_RegisterWithAlreadyExistingCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_03_AddingBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_03_AddingBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_04_ShippingAddressIsAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_05_UserEditAccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_06_SearchDesiredProductInTheSearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_06_SearchDesiredProductInTheSearchBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_09_VendorEmailExıstsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_09_VendorEmailExıstsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_10_PasswordChartVisibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_10_PasswordChartVisibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_11_SignInAsVendorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_11_SignInAsVendorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_12_VendorBillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_12_VendorBillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_13_VendorShippingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_13_VendorShippingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_14_OptionsAreVsisible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/tests/positivetests/US_14_OptionsAreVsisible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ExtentReportUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/JSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ListenersUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ListenersUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/LoggerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/LoggerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/MediaUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ReusableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/ReusableMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pearlymarket_project/utilities/WaitUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,29 +93,25 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
 
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
 
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;</component>
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.US_15_Vendor2AddItems (1)">
-    <configuration name="US_02_RegisterWithAlreadyExistingCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +120,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.test.java.pearlymarket_project.tests.positivetests" />
-      <option name="MAIN_CLASS_NAME" value="src.test.java.pearlymarket_project.tests.positivetests.US_02_RegisterWithAlreadyExistingCredentials" />
+      <option name="MAIN_CLASS_NAME" value="src.test.java.pearlymarket_project.tests.positivetests.US_01_Register" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,17 +146,17 @@
       </method>
     </configuration>
     <configuration name="US_12_VendorBillingAddress" type="TestNG" temporary="true" nameIsGenerated="true" />
-    <configuration name="US_12_VendorBillingAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_12_VendorBillingAddress" type="TestNG" temporary="true" nameIsGenerated="true" />
+    <configuration name="US_14_OptionsAreVsisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pearlymarket_project.tests.negativetests.*" />
+          <option name="PATTERN" value="src.test.java.pearlymarket_project.tests.positivetests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pearlymarket_project.tests" />
-      <option name="MAIN_CLASS_NAME" value="pearlymarket_project.tests.US_12_VendorBillingAddress" />
-      <option name="METHOD_NAME" value="editingBillingAddressTest2" />
+      <option name="PACKAGE_NAME" value="src.test.java.pearlymarket_project.tests.positivetests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.java.pearlymarket_project.tests.positivetests.US_14_OptionsAreVsisible" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -176,10 +219,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.US_15_Vendor2AddItems (1)" />
-        <item itemvalue="TestNG.US_02_RegisterWithAlreadyExistingCredentials" />
-        <item itemvalue="TestNG.US_17_ShopAsAVendorTest (1)" />
         <item itemvalue="TestNG.US_17_ShopAsAVendorTest.vendorShoppingTest" />
         <item itemvalue="TestNG.US_12_VendorBillingAddress" />
+        <item itemvalue="TestNG.US_14_OptionsAreVsisible" />
+        <item itemvalue="TestNG.US_01_Register" />
       </list>
     </recent_temporary>
   </component>
@@ -206,9 +249,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

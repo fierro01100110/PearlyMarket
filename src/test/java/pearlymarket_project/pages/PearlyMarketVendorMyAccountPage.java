@@ -56,4 +56,10 @@ public class PearlyMarketVendorMyAccountPage {
     @FindBy(xpath = "//a[text()='Logout']")
     public WebElement logout;
 
+
+    //myAccount1
+    @FindBy(xpath = "(//*[text()='My Account'])[2]")
+    public WebElement myAccount1;
+
+
 }

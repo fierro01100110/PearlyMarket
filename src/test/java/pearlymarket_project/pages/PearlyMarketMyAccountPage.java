@@ -3,7 +3,7 @@ package src.test.java.pearlymarket_project.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+import src.test.java.pearlymarket_project.utilities.Driver;
 
 import src.test.java.pearlymarket_project.utilities.Driver;
 
@@ -13,8 +13,10 @@ public class PearlyMarketMyAccountPage {
     public PearlyMarketMyAccountPage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
-
     }
+
+
+
 
 
     //For Addresses
@@ -69,9 +71,6 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath = "//a[text()='Edit Your Billing Address']")
     public WebElement editYourBillingAddress;
 
-
-
-
     //Store Manager element
     @FindBy(xpath = "//a[text()='Store Manager']")
     public WebElement storeManager;
@@ -81,9 +80,13 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath = "(//span[@class='wcfmfa fa-cube'])[1]")
     public WebElement products;
 
+    @FindBy(xpath = "//div[@class='wcfm_menu_items wcfm_menu_wcfm-products']")
+    public WebElement products2;
+
     //Add New when you Hover Over to Products
-    @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
-    public WebElement addNewProducts;
+
+//    @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
+//    public WebElement addNewProducts;
 
 
     //Orders
@@ -98,4 +101,14 @@ public class PearlyMarketMyAccountPage {
     //Place Order
     @FindBy(xpath = "//button[text()='Place order']")
     public WebElement placeOrder;
+
+    //@FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
+    //public WebElement addNewProducts;
+    @FindBy(xpath = "//span[text()='Add New']")
+    public WebElement addNewProducts;
+
+    //myAccount1
+    @FindBy(xpath = "(//*[text()='My Account'])[2]")
+    public WebElement myAccount1;
+
 }

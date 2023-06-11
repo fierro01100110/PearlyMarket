@@ -1,13 +1,16 @@
 package src.test.java.pearlymarket_project.utilities;
+
 import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebElement;
+
 
 public class JSUtils {
     /*
-  JAVASCRIPT EXECUTOR METHODS
-   @param WebElement
-   scrolls into that element
-    */
+JAVASCRIPT EXECUTOR METHODS
+@param WebElement
+scrolls into that element
+ */
     public static void scrollIntoViewJS(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].scrollIntoView(true);",element);
@@ -49,7 +52,7 @@ public class JSUtils {
     @param1 WebElement, @param2 String
     type the string in that web element
      */
-    public static void setValueByJS(WebElement inputElement,String text){
+    public static void setValueByJS(WebElement inputElement, String text){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].setAttribute('value','"+text+"')",inputElement);
     }
@@ -63,6 +66,4 @@ public class JSUtils {
         return value;
 
     }
-
-
 }

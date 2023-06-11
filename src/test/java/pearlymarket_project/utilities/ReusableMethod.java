@@ -280,6 +280,21 @@ public class ReusableMethod {
     public static void scrollLeftActions(){
         new Actions(Driver.getDriver()).sendKeys(Keys.ARROW_LEFT).sendKeys(Keys.ARROW_LEFT).perform();
     }
+
+    //ACTION_SCROLL_DOWN
+    public static void arrowDownActions(){
+        new Actions(Driver.getDriver())
+                .sendKeys(Keys.ARROW_DOWN)
+                .sendKeys(Keys.ARROW_DOWN)
+                .sendKeys(Keys.ARROW_DOWN).perform();
+    }
+
+    //ACTION arrow down
+    public static void arrowDownActionsLess(){
+        new Actions(Driver.getDriver())
+
+                .sendKeys(Keys.ARROW_DOWN).perform();
+    }
     //    ACTIONS_DRAG_AND_DROP
     public static void dragAndDropActions(WebElement source, WebElement target) {
         //        Actions actions = new Actions(driver);
@@ -290,4 +305,5 @@ public class ReusableMethod {
         //        Actions actions = new Actions(driver);
         new Actions(Driver.getDriver()).dragAndDropBy(source,x,y).perform();
     }
+
 }

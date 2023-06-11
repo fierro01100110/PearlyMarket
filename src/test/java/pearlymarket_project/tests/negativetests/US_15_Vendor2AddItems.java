@@ -16,10 +16,7 @@ import src.test.java.pearlymarket_project.utilities.ConfigReader;
 import src.test.java.pearlymarket_project.utilities.Driver;
 import src.test.java.pearlymarket_project.utilities.ReusableMethod;
 import src.test.java.pearlymarket_project.utilities.WaitUtils;
-
 import java.util.List;
-
-import static org.testng.AssertJUnit.assertTrue;
 
 public class US_15_Vendor2AddItems {
 
@@ -55,12 +52,9 @@ public class US_15_Vendor2AddItems {
             ReusableMethod.scrollDownActions();
         }
 
-
         WaitUtils.waitFor(3);
         //User clicks to My Account
         pearlyMarketHomePage.myAccount.click();
-
-
 
         //Wait for page to reload
         WaitUtils.waitFor(3);

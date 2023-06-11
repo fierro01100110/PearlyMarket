@@ -53,6 +53,10 @@ public class PearlyMarketSearchingProductsPage {
     @FindBy(id = "place_order")
     public WebElement placeOrder;
 
+    //Order received message
+    @FindBy(xpath = "//p[.='Thank you. Your order has been received.']")
+    public WebElement orderReceivedMessage;
+
 
 
 
