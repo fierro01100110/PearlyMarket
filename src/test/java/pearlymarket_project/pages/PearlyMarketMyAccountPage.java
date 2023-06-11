@@ -66,7 +66,6 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath =" (//p['The following addresses will be used on the checkout page by default.'])[1]" )
     public WebElement address_added;
 
-
     @FindBy(xpath = "//a[text()='Edit Your Billing Address']")
     public WebElement editYourBillingAddress;
 
@@ -77,12 +76,13 @@ public class PearlyMarketMyAccountPage {
     @FindBy(xpath = "//a[text()='Store Manager']")
     public WebElement storeManager;
 
+
     //Products element
     @FindBy(xpath = "(//span[@class='wcfmfa fa-cube'])[1]")
     public WebElement products;
 
     //Add New when you Hover Over to Products
-    @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
+    @FindBy(xpath = "//span[text()='Add New']")
     public WebElement addNewProducts;
 
 
