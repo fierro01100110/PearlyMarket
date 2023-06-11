@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2697613-e2f4-4b0f-a3bb-06be25b02a06" name="Changes" comment="" />
+    <list default="true" id="f2697613-e2f4-4b0f-a3bb-06be25b02a06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +58,7 @@
       <recent name="pearlymarket_project.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_06_SearchDesiredProductInTheSearchBox.test2">
+  <component name="RunManager" selected="TestNG.US_06_SearchDesiredProductInTheSearchBox">
     <configuration name="US_06_SearchDesiredProductInTheSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PearlyMarketTest" />
       <extension name="coverage">
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox.test2" />
+        <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox" />
         <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox_Bug.signInAndSearchProduct" />
+        <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox.test2" />
         <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox_Bug (1)" />
         <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox_Bug" />
-        <item itemvalue="TestNG.US_06_SearchDesiredProductInTheSearchBox" />
       </list>
     </recent_temporary>
   </component>
