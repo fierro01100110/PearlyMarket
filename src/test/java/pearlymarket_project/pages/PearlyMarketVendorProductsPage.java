@@ -1,9 +1,9 @@
-package pearlymarket_project.pages;
+package src.test.java.pearlymarket_project.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.Driver;
 
 public class PearlyMarketVendorProductsPage {
 
@@ -145,6 +145,7 @@ public class PearlyMarketVendorProductsPage {
     @FindBy(xpath = "//textarea[@id='attributes_value_3']")
     public WebElement addValue;
 
+
     //simple product
     @FindBy(xpath = "//select[@id='product_type']")
     public WebElement simpleProduct;
@@ -196,5 +197,6 @@ public class PearlyMarketVendorProductsPage {
     //add new button
     @FindBy(xpath = "(//a[contains(text(),'Add New')])[2]")
     public WebElement addNew;
+
 
 }

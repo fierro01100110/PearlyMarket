@@ -1,16 +1,18 @@
-package pearlymarket_project.tests.positivetests;
 
-import com.github.javafaker.Faker;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Ignore;
+
+
+package src.test.java.pearlymarket_project.tests.positivetests;
+
+
+
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketMyAccountPage;
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketMyAccountPage;
+import src.test.java.pearlymarket_project.utilities.*;
 
 import java.io.IOException;
 
-import static org.testng.AssertJUnit.assertTrue;
+
 
 public class US_12_VendorBillingAddress {
 

@@ -1,13 +1,11 @@
-package pearlymarket_project.pages;
+package src.test.java.pearlymarket_project.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.Driver;
 
-
-
-import pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.Driver;
 
 
 public class PearlyMarketMyAccountPage {
@@ -86,6 +84,24 @@ public class PearlyMarketMyAccountPage {
     public WebElement products2;
 
     //Add New when you Hover Over to Products
+
+//    @FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
+//    public WebElement addNewProducts;
+
+
+    //Orders
+    @FindBy(xpath = "//a[text()='Orders']")
+    public WebElement orders;
+
+    //Browse Products
+    @FindBy(xpath = "//a[text()='Browse products']")
+    public WebElement browseProducts;
+
+
+    //Place Order
+    @FindBy(xpath = "//button[text()='Place order']")
+    public WebElement placeOrder;
+
     //@FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
     //public WebElement addNewProducts;
     @FindBy(xpath = "//span[text()='Add New']")
@@ -94,4 +110,5 @@ public class PearlyMarketMyAccountPage {
     //myAccount1
     @FindBy(xpath = "(//*[text()='My Account'])[2]")
     public WebElement myAccount1;
+
 }

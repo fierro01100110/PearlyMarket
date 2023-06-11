@@ -1,4 +1,4 @@
-package pearlymarket_project.utilities;
+package src.test.java.pearlymarket_project.utilities;
 
 import org.openqa.selenium.JavascriptExecutor;
 

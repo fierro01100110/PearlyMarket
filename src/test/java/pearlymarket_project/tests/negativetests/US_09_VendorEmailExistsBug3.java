@@ -1,16 +1,16 @@
-package pearlymarket_project.tests.negativetests;
+package src.test.java.pearlymarket_project.tests.negativetests;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketRegisterPage;
-import pearlymarket_project.pages.PearlyMarketVendorRegistrationPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ReusableMethod;
-import pearlymarket_project.utilities.WaitUtils;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketRegisterPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketVendorRegistrationPage;
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.ReusableMethod;
+import src.test.java.pearlymarket_project.utilities.WaitUtils;
 
-import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
+import static src.test.java.pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
 
 public class US_09_VendorEmailExistsBug3 {
 

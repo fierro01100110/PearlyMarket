@@ -1,12 +1,19 @@
-package pearlymarket_project.tests.negativetests;
+package src.test.java.pearlymarket_project.tests.negativetests;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.AccountDetailsPage;
-import pearlymarket_project.utilities.*;
+import src.test.java.pearlymarket_project.pages.AccountDetailsPage;
+
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.JSUtils;
+import src.test.java.pearlymarket_project.utilities.WaitUtils;
+
+import src.test.java.pearlymarket_project.utilities.*;
 
 import java.io.IOException;
+
 
 public class US_05_UserEditAccountDetailsNegative {
     AccountDetailsPage accountDetailsPage = new AccountDetailsPage();

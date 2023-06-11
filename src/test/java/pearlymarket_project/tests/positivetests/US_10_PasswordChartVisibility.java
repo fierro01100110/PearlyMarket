@@ -1,16 +1,16 @@
-package pearlymarket_project.tests.positivetests;
+package src.test.java.pearlymarket_project.tests.positivetests;
 
 import com.aventstack.extentreports.ExtentReports;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.PearlyMarketHomePage;
-import pearlymarket_project.pages.PearlyMarketRegisterPage;
-import pearlymarket_project.pages.PearlyMarketVendorRegistrationPage;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ExtentReportUtils;
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketRegisterPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketVendorRegistrationPage;
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.ExtentReportUtils;
 
-import static pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
+import static src.test.java.pearlymarket_project.utilities.ReusableMethod.verifyElementDisplayed;
 
 public class US_10_PasswordChartVisibility {
     @Test

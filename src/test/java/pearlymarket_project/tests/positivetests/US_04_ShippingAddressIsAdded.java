@@ -1,22 +1,29 @@
-package pearlymarket_project.tests.positivetests;
 
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+package src.test.java.pearlymarket_project.tests.positivetests;
+
+
 import org.testng.annotations.Test;
-import pearlymarket_project.pages.*;
-import pearlymarket_project.utilities.ConfigReader;
-import pearlymarket_project.utilities.Driver;
-import pearlymarket_project.utilities.ExtentReportUtils;
-import pearlymarket_project.utilities.WaitUtils;
+
+import src.test.java.pearlymarket_project.pages.PearlyMarketHomePage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketShippingAddressPage;
+import src.test.java.pearlymarket_project.pages.PearlyMarketSignInPage;
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+
+import src.test.java.pearlymarket_project.pages.*;
+import src.test.java.pearlymarket_project.utilities.ConfigReader;
+import src.test.java.pearlymarket_project.utilities.Driver;
+import src.test.java.pearlymarket_project.utilities.ExtentReportUtils;
+
+import src.test.java.pearlymarket_project.utilities.WaitUtils;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static pearlymarket_project.utilities.WaitUtils.waitForClickablility;
+
 
 public class US_04_ShippingAddressIsAdded {
 
@@ -24,9 +31,11 @@ public class US_04_ShippingAddressIsAdded {
 
     public void shippingAddressIsAdded() throws InterruptedException, IOException {
 
+
         ExtentReportUtils.pass("Test Starts");
 
         PearlyMarketHomePage pearlyMarketHomePage = new PearlyMarketHomePage();
+
         PearlyMarketSignInPage pearlyMarketSignInPage = new PearlyMarketSignInPage();
         PearlyMarketShippingAddressPage pearlyMarketShippingAddressPage = new PearlyMarketShippingAddressPage();
         WaitUtils waitUtils = new WaitUtils();
