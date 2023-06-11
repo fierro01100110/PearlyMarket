@@ -3,6 +3,8 @@ package pearlymarket_project.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import pearlymarket_project.utilities.Driver;
+
 
 
 import pearlymarket_project.utilities.Driver;
@@ -13,8 +15,10 @@ public class PearlyMarketMyAccountPage {
     public PearlyMarketMyAccountPage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
-
     }
+
+
+
 
 
     //For Addresses
@@ -82,6 +86,8 @@ public class PearlyMarketMyAccountPage {
     public WebElement products;
 
     //Add New when you Hover Over to Products
+    //@FindBy(xpath = "//span[@class='wcfm_sub_menu_items wcfm_sub_menu_items_product_manage moz_class']")
+    //public WebElement addNewProducts;
     @FindBy(xpath = "//span[text()='Add New']")
     public WebElement addNewProducts;
 

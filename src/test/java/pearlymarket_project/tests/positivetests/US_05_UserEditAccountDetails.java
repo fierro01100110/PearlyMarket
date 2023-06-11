@@ -1,13 +1,13 @@
 package pearlymarket_project.tests.positivetests;
-
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pearlymarket_project.pages.AccountDetailsPage;
 import pearlymarket_project.pages.PearlyMarketHomePage;
-
 import pearlymarket_project.utilities.*;
+
+import java.io.IOException;
 
 
 public class US_05_UserEditAccountDetails {
@@ -29,6 +29,7 @@ public class US_05_UserEditAccountDetails {
     public void testCase01() {
         // 1. Go to the https://pearlymarket.com
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
+        ExtentReportUtils.pass("Go to home page: "+ ConfigReader.getProperty("pearlymarket_home_page"));
 
         //2. User clicks Register button
         pearlyMarketHomePage.register.click();
@@ -57,10 +58,14 @@ public class US_05_UserEditAccountDetails {
 
         Assert.assertTrue(accountDetailsPage.signIn.isDisplayed());
 
+        ExtentReportUtils.pass("User completed registration process");
+
+        ExtentReportUtils.flush();
+
     }
 
     @Test
-    public void testCase02() {
+    public void testCase02() throws IOException {
 
         // 1. Go to the https://pearlymarket.com
         Driver.getDriver().get(ConfigReader.getProperty("pearlymarket_home_page"));
@@ -76,6 +81,7 @@ public class US_05_UserEditAccountDetails {
 
         //5. User clicks Sign In Button
         accountDetailsPage.signIn.click();
+        ExtentReportUtils.pass("User Signed In the website");
 
         //6. User clicks My Account link
         WaitUtils.waitFor(2);
@@ -84,20 +90,26 @@ public class US_05_UserEditAccountDetails {
 
         //User see the My Account Page
         Assert.assertTrue(accountDetailsPage.myAccountText.isDisplayed());
+        ExtentReportUtils.pass("User entered on My Account Page");
+        ExtentReportUtils.passAndCaptureScreenShot("User is on My Account Page");
 
-
+        ExtentReportUtils.flush();
     }
 
     @Test
-    public void testCase03() {
+    public void testCase03() throws IOException {
 
         //1. User clicks Account details link on the My Account Page
         accountDetailsPage.accountDetailsLink.click();
 
         //2. User should be able to see Account Details page
         Assert.assertEquals(accountDetailsPage.getAccountDetailsText.getText(), "Account Details");
+         ExtentReportUtils.pass("User entered Account Details page");
+         ExtentReportUtils.passAndCaptureScreenShot("User entered Account Details page");
 
         WaitUtils.waitFor(5);
+
+        ExtentReportUtils.flush();
     }
 
     @Test
@@ -123,6 +135,8 @@ public class US_05_UserEditAccountDetails {
         accountDetailsPage.accountEmail.clear();
         accountDetailsPage.accountEmail.sendKeys(changedEmail);
         WaitUtils.waitFor(2);
+        ExtentReportUtils.pass("User entered First, Last, Display Name and Email");
+
 
         // 5. User clicks SAVE CHANGES button
         WaitUtils.waitFor(3);
@@ -130,6 +144,7 @@ public class US_05_UserEditAccountDetails {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.saveChangesButton);
         WaitUtils.waitFor(2);
+
 
         // 6. User should be able to see Account details changed successfully message
         Assert.assertEquals(accountDetailsPage.changesSuccesfullyMessage.getText(), "Account details changed successfully.");
@@ -147,17 +162,21 @@ public class US_05_UserEditAccountDetails {
 //        10.  User should be able to see the changed Email address
         Assert.assertEquals(accountDetailsPage.accountEmail.getAttribute("value"), changedEmail);
 
+        ExtentReportUtils.pass("User saved First, Last, Display Name and Email");
+
+        ExtentReportUtils.flush();
+
     }
 
     @Test
     public void testCase05() {
-//    1. User writes some text into the Biography section
+//   1. User writes some text into the Biography section
         ReusableMethod.switchIframeByWebElement("//iframe[@id='user_description_ifr']");
         accountDetailsPage.biographyTextArea.sendKeys("Welcome to Account Details Page");
         Driver.getDriver().switchTo().defaultContent();
         WaitUtils.waitFor(2);
 
-  //     2. User clicks SAVE CHANGES button
+  //  2. User clicks SAVE CHANGES button
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.saveChangesButton);
 
@@ -167,7 +186,8 @@ public class US_05_UserEditAccountDetails {
 //    4. User should be able to see "Welcome to Account Details Page" text in the Biography section
         ReusableMethod.switchIframeByWebElement("//iframe[@id='user_description_ifr']");
         Assert.assertTrue(accountDetailsPage.biographyTextArea.getText().contains("Welcome to Account Details Page"));
-
+        ExtentReportUtils.pass("User enter text and saved in Biography section");
+        ExtentReportUtils.flush();
     }
 
     @Test
@@ -190,7 +210,8 @@ public class US_05_UserEditAccountDetails {
 
 //        5.  User should be able to see "Account details changed successfully" message
         Assert.assertEquals(accountDetailsPage.changesSuccesfullyMessage.getText(), "Account details changed successfully.");
-
+        ExtentReportUtils.pass("User was able to change password.");
+        ExtentReportUtils.flush();
     }
 
     @Test
@@ -217,13 +238,20 @@ public class US_05_UserEditAccountDetails {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", accountDetailsPage.myAccountLink);
 
+
         //7. User clicks Account details link on the My Account Page
-
+        Driver.getDriver().navigate().refresh();
+        WaitUtils.waitFor(5);
         JSUtils.clickWithTimeoutByJS(accountDetailsPage.accountDetailsLink);
-
         //8. User should be able to see Account Details page
+        WaitUtils.waitFor(3);
         Assert.assertEquals(accountDetailsPage.getAccountDetailsText.getText(), "Account Details");
+        ExtentReportUtils.pass("User was able to go Account Details Page with New Password and New Username");
+        ExtentReportUtils.flush();
+
+
    }
+
 
 }
 
